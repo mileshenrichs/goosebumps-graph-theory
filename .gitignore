@@ -1,0 +1,5 @@
+.idea/
+*.iml
+target/
+google-api-credentials.json
+src/main/resources/page-images/
