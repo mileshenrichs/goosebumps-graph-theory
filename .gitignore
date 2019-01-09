@@ -3,3 +3,4 @@
 target/
 google-api-credentials.json
 src/main/resources/page-images/
+src/main/resources/page-contents/
