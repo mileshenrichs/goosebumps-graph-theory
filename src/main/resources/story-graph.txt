@@ -1,0 +1,288 @@
+-----------------------------------------------------------
+Data collection format:
+PAGE | pageNo | isEnding | utility | summary
+EDGE | fromPage | toPage | isDecision | decisionDescription
+-----------------------------------------------------------
+
+PAGE | 1 | false | -- | meet Nick, see his house
+EDGE | 1 | 2 | false | --
+PAGE | 2 | false | -- | talk to Nick, become friends
+EDGE | 2 | 3 | false | --
+PAGE | 2 | false | -- | Nick tells you about Horror Club
+EDGE | 3 | 100 | false | --
+PAGE | 100 | false | -- | Nick asks if you want to come to Horror Club tonight
+EDGE | 100 | 17 | true | go to Horror Club
+PAGE | 17 | false | -- | walk to Bat Wing Hall with Nick
+EDGE | 17 | 96 | false | --
+PAGE | 96 | false | -- | start approaching Hall, Nick shouts "get down!" at you
+EDGE | 96 | 19 | true | drop to the ground, following Nick's instructions
+PAGE | 19 | false | -- | enter Hall with Nick and Debbie
+EDGE | 19 | 75 | false | --
+PAGE | 75 | false | -- | introduced to club, learn that their plans of just telling stories has changed
+EDGE | 75 | 128 | false | --
+PAGE | 128 | false | -- | learn that you'll be playing scary games tonight, Debbie warns you to leave
+EDGE | 128 | 66 | false | --
+PAGE | 66 | false | -- | learn that Red and Blue team both have 3 members,  need to pick a team to join
+EDGE | 66 | 88 | true | join Red Team
+PAGE | 88 | false | -- | see list of items for scavenger hunt
+EDGE | 88 | 79 | false | --
+PAGE | 79 | false | -- | receive confirmation from teammates that creepy items listed for the hunt are legit
+EDGE | 79 | 47 | false | --
+PAGE | 47 | false | -- | discover the other kids are all monsters
+EDGE | 47 | 114 | false | --
+PAGE | 114 | false | -- | become skeptical that the monsters are real, consider might just be costumes
+EDGE | 114 | 13 | true | decide it's all a joke; the kids aren't actually monsters
+PAGE | 13 | true | -9 | pull on Nick's face to remove the "mask", monsters proceed to eat you
+EDGE | 114 | 71 | true | believe monsters are real
+PAGE | 71 | false | -- | try to escape but fail, realize that only hope is to play the game
+EDGE | 71 | 48 | false | --
+PAGE | 48 | false | -- | learn you'll be turned into a monster if you can't find all four items
+EDGE | 48 | 11 | true | decide to stay on the main floor
+PAGE | 11 | false | -- | begin searching around living room area
+EDGE | 11 | 97 | false | --
+PAGE | 97 | false | -- | more searching, grab bandages, which might be one of items you need
+EDGE | 97 | 12 | false | --
+PAGE | 12 | false | -- | see blood seeping out of a closed closet
+EDGE | 12 | 83 | true | open bloody closet door
+PAGE | 83 | false | -- | find human hand in closet
+EDGE | 83 | 67 | false | --
+PAGE | 67 | false | -- | detach bone from hand, get called over by Debbie's whispers
+EDGE | 67 | 6 | false | --
+PAGE | 6 | false | -- | Debbie says she used to be a normal kid like you and wants to help you escape
+EDGE | 6 | 86 | true | decide Debbie is telling the truth
+PAGE | 86 | false | -- | encounter hungry-looking Nick and Connor, look to Debbie for help
+EDGE | 86 | 38 | false | --
+PAGE | 38 | false | -- | Debbie turns on you; so you run towards a bright green door to escape
+EDGE | 38 | 43 | false | --
+PAGE | 43 | false | -- | see mummy walking down hall, don't want to follow it but realize you have to scavenge mummy bandages
+EDGE | 43 | 26 | false | --
+PAGE | 26 | false | -- | start following mummy, but hear Nick, Connor, and Debbie talking about you behind hallway door
+EDGE | 26 | 65 | true | decide to eavesdrop on Nick, Connor, and Debbie
+PAGE | 65 | true | -6 | hear Debbie say that house turns most visitors to stone, and realize that the process has begun rapidly happening to you
+EDGE | 26 | 94 | true | decide to follow mummy instead of eavesdrop on monsters
+PAGE | 94 | false | -- | find mummy sleeping beside its case at end of hall
+EDGE | 94 | 117 | true | take a piece of bandage from mummy's case
+PAGE | 117 | false | -- | get pulled into mummy case by mysterious hand, try to bust your way back out
+EDGE | 117 | 37 | false | --
+PAGE | 37 | false | -- | break out of case but find yourself in a completely different place, surrounded by men in white robes
+EDGE | 37 | 58 | false | --
+PAGE | 58 | false | -- | learn that you will be mummified unless you choose the correct enchanted stone to transport you back to Bat Wing Hall
+EDGE | 58 | 84 | true | pick red stone
+PAGE | 84 | false | -- | red stone teleports you back to Bat Wing Hall
+EDGE | 84 | 64 | false | --
+PAGE | 64 | true | -4 | find out you teleported back an hour later and it's midnight; you're out of time and get turned into a monster
+EDGE | 58 | 34 | true | pick gray rock
+PAGE | 34 | false | -- | discover you picked the wrong rock, run into another room, find King Ra-ma-la-ma and cry for help
+EDGE | 34 | 52 | false | --
+PAGE | 52 | false | -- | King calls the evil priests off, and instead invites you to stay in this realm with him
+EDGE | 52 | 24 | true | accept King's offer to stay with him
+PAGE | 24 | false | -- | King leads you to a room, ties you down, says he plans to take you to the afterlife with him as a mummy
+EDGE | 24 | 120 | false | --
+PAGE | 120 | true | -10 | you are mummified alive
+EDGE | 52 | 89 | true | decline King's offer, decide to leave the palace
+PAGE | 89 | false | -- | King lets you outside but later changes his mind and starts chasing you
+EDGE | 89 | 80 | true | hide from King in mummy case
+PAGE | 80 | false | -- | hide in case for a bit then pop out, finding yourself back in Bat Wing Hall
+EDGE | 80 | 39 | false | --
+PAGE | 39 | false | -- | grab bandage off sleeping mummy, go up some stairs behind it, find yourself in a musty corridor, must decide whether to turn left or right
+EDGE | 39 | 29 | true | you're wearing a sweatshirt/sweater, so turn right
+PAGE | 29 | false | -- | find monsters playing your favorite video game, Mud Monsters
+EDGE | 29 | 121 | false | --
+PAGE | 121 | false | -- | challenge Connor to a Mud Monsters contest in which a victory leads to your freedom and defeat leads to you being turned into a monster
+EDGE | 121 | 7 | false | --
+PAGE | 7 | false | -- | deep into game, only you and Nick remain, tidal wave coming (in-game), must decide whether to jump over it or duck under it
+EDGE | 7 | 20 | true | jump the wave
+PAGE | 20 | false | -- | jump wave, win game against Nick; monsters start arguing, so you make a run for it
+EDGE | 20 | 116 | false | --
+PAGE | 116 | true | 8 | you successfully escape Bat Wing Hall and return home to play Mud Monsters with your brother
+EDGE | 7 | 72 | true | duck under wave
+PAGE | 72 | true | -4 | ducking under wave didn't work, you lose to Nick, and he turns you into a monster
+EDGE | 39 | 68 | true | you're not wearing a sweatshirt/sweater, so turn left
+PAGE | 68 | false | -- | find rope ladder, start climbing up it
+EDGE | 68 | 131 | false | --
+PAGE | 131 | false | -- | climb into the attic, find a woman in a box who's been waiting 200 years for you
+EDGE | 131 | 107 | false | --
+PAGE | 107 | false | -- | woman identifies herself as a witch, asks you to help her escape
+EDGE | 107 | 95 | true | choose to help the witch
+PAGE | 95 | false | -- | witch has you recite some spells, and you notice she has her fingers crossed
+EDGE | 95 | 18 | false | --
+PAGE | 18 | false | -- | spell works and witch is let free; you run to elevator to get to basement, but broom gets caught in entry way
+EDGE | 18 | 21 | true | break a straw off the broom to force it through entrance
+PAGE | 21 | false | -8 | you break straw off broom and step into elevator, but realize that elevator is gone and plummet to the bottom of empty shaft, dying on impact
+EDGE | 18 | 115 | true | try to squeeze broom into elevator without snapping any straws
+PAGE | 115 | false | -- | you squeeze broom through, but realize there's no elevator and begin falling down empty shaft; you grab onto a railing, but begin gradually slipping
+EDGE | 115 | 49 | false | --
+PAGE | 49 | false | -- | magic broom flies up to safely sweep you down to basement, where you find a cage containing a snarling werewolf
+EDGE | 49 | 129 | false | --
+PAGE | 129 | false | -- | monsters come down to basement, remind you that you have to pluck hairs off the werewolf
+EDGE | 129 | 127 | false | --
+PAGE | 127 | false | -- | enter cage and realize that werewolf is scared of broom; must decide whether to command werewolf like a dog or pretend to be a werewolf as well
+EDGE | 127 | 122 | true | try to command werewolf
+PAGE | 122 | false | -- | werewolf seems to obey your commands
+EDGE | 122 | 8 | false | --
+PAGE | 8 | false | -- | manage to pluck hairs off werewolf; clock strikes midnight and you find yourself alone in basement; you hear Nick calling out from other room
+EDGE | 8 | 105 | false | --
+PAGE | 105 | false | -- | find Nick, Connor, and Debbie in room as humans (not monsters), and they seem to have no idea about any of the events you experienced
+EDGE | 105 | 90 | false | --
+PAGE | 90 | true | 9 | Nick starts telling story that sounds similar to your experience; you realize you freed them all from a curse that they now have knowledge about
+EDGE | 127 | 101 | true | pretend to be a werewolf
+PAGE | 101 | true | -5 | werewolf is successfully fooled, but you run out of time and are doomed to become a werewolf yourself
+EDGE | 107 | 44 | true | choose to leave the witch in the box and steal her broom
+PAGE | 44 | true | -6 | witch gets mad an recites a spell that forces you to fly around high up in the air on her broom for eternity
+EDGE | 89 | 99 | true | run towards some tall grass to hide
+PAGE | 99 | false | -- | hide successfully, but encounter huge, threatening snake
+EDGE | 99 | 110 | false | --
+PAGE | 110 | false | -- | rescued by snake charmer who recognizes your situation as having happened before
+EDGE | 110 | 125 | false | --
+PAGE | 125 | true | -3 | you discover you must play the flute for 10 hours a day for three years to stay safe from snake
+EDGE | 94 | 39 | true | tear a strip of bandage off sleeping mummy
+EDGE | 6 | 16 | true | decide to ignore Debbie's offer and continue hunting
+PAGE | 16 | false | -- | Debbie is angered and begins throwing spiders at you; you run down a dark hall and are confronted by two doors, green and orange
+EDGE | 16 | 126 | true | go through orange door
+PAGE | 126 | false | -- | you fall for a while and eventually land in a closet; you eventually realize this is your closet at home, and you've started all over again
+EDGE | 126 | 1 | false | --
+EDGE | 16 | 43 | true | go through green door
+EDGE | 12 | 78 | true | stay away from closet door, head back towards dining room instead
+PAGE | 78 | true | -4 | Nick grabs your arm and lets you know that time is up because you're running on monster time, so you become a monster
+EDGE | 48 | 111 | true | decide to explore upstairs
+PAGE | 111 | false | -- | you start climbing stairs, and hear the monsters whispering behind you; you start sprinting up stairs in an attempt to escape
+EDGE | 111 | 28 | false | --
+PAGE | 28 | false | -- | while you're climbing, you suddenly find yourself paralyzed; Nick mockingly asks you if you need some help
+EDGE | 28 | 51 | true | decide to accept monsters' help
+PAGE | 51 | true | -4 | they reveal that you're trapped in a force field that doesn't deactivate until a minute after midnight, so you're doomed to become a monster
+EDGE | 28 | 61 | true | refuse monsters' help
+PAGE | 61 | false | -- | you realize you're stuck in a force field, but notice that if you relax, the force weakens; you eventually are able to roll back down the stairs
+EDGE | 61 | 11 | false | --
+EDGE | 66 | 33 | true | join Blue Team
+PAGE | 33 | false | -- | discover you're going to play a game called The Hunt, where you each compete to find the scariest stuff possible; Martin says you first have to pass a test at the cemetery
+EDGE | 33 | 106 | false | --
+PAGE | 106 | false | -- | you head over to the cemetery and encounter a building labeled "Krupnik Crypt"
+EDGE | 106 | 69 | false | --
+PAGE | 69 | false | -- | you walk closer to the building door and see the engraving: "who turns the stone will grow bat bones"; you also notice a small hole on top of the crypt
+EDGE | 69 | 32 | true | crawl into the crypt through the hole on top
+PAGE | 32 | true | -7 | you get stuck in the hole; soon after, you hear a slimy monster moaning beneath you, slowly approaching; when it arrives, it will consume you
+EDGE | 69 | 9 | true | try to open stone door
+PAGE | 9 | false | -- | walk into tomb and explore, but don't find anything scary; leave the tomb to return to your friends and realize you're all alone
+EDGE | 9 | 93 | false | --
+PAGE | 93 | false | -- | head home, wake up in the middle of the night and realize that you're shorter than you used to be
+EDGE | 93 | 124 | false | --
+PAGE | 124 | false | -- | you look in the mirror and discover you've turned into a bat
+EDGE | 124 | 102 | false | --
+PAGE | 102 | false | -- | you recall the warning on the Krupnik Crypt and need to decide whether to go back to the cemetery or go back to sleep
+EDGE | 102 | 27 | true | return to the cemetery
+PAGE | 27 | false | -- | you start flying towards the cemetery, but bump into a couple things and realize you're not sure where you are
+EDGE | 27 | 31 | false | --
+PAGE | 31 | false | -- | you see a couple walking their dog nearby
+EDGE | 31 | 54 | true | ask the couple for help
+PAGE | 54 | false | -- | you accidentally fly into the woman's hair and she freaks out; you end up getting out, and just fly back home, exhausted
+EDGE | 54 | 53 | false | --
+PAGE | 53 | false | -- | you wake up the next morning as your normal self, but notice that you're craving beetles as a topping for the pancakes you eat
+EDGE | 53 | 40 | false | --
+PAGE | 40 | false | -- | you try to step outside, but the sun is painful, and you realize you're still a bat that stays in human form during the daytime
+EDGE | 40 | 74 | false | --
+PAGE | 74 | false | -- | you realize you need to return to Krupnik Crypt at night (as a bat)
+EDGE | 74 | 92 | false | --
+PAGE | 92 | false | -- | you fly around the night sky and develop an appreciation for sonar
+EDGE | 92 | 137 | false | --
+PAGE | 137 | false | -- | when you get to the crypt, you realize you're too small to open it, so need to enlist some help from one of your friends
+EDGE | 137 | 36 | true | get help from Martin
+PAGE | 36 | false | -- | when you fly into Martin's house, you're captured by his dad
+EDGE | 36 | 60 | false | --
+PAGE | 60 | true | -5 | you're shoved in a paper bag and taken to the zoo, where you will be kept forever amongst hundreds of other bats
+EDGE | 137 | 118 | true | get help from Lara
+PAGE | 118 | false | -- | you fly outside of Lara's window and call to her
+EDGE | 118 | 76 | false | --
+PAGE | 76 | false | -- | Lara freaks out so you fly home, and learn that you've been invited to the mall with Lara, Marcie, and Martin tomorrow afternoon
+EDGE | 76 | 133 | false | --
+PAGE | 133 | false | -- | you meet your friends at the mall, and you're dressed oddly to protect yourself from sunlight; you have to help your friends decide what to do
+EDGE | 133 | 73 | true | go to the science store
+PAGE | 73 | false | -- | at the science store, you see a lot of beetles, and you notice your bat instincts starting to kick in
+EDGE | 73 | 41 | false | --
+PAGE | 41 | true | -2 | you start eating all the beetles, get arrested, get bailed by your parents, and concoct a delicious ice cream flavor called Beetle Berry Crunch
+EDGE | 133 | 108 | true | go see the Dracula movie
+PAGE | 108 | false | -- | in the theater, you suddenly turn into a bat and hide on the ceiling; you have to decide how to tell your friends about your condition
+EDGE | 108 | 22 | true | tell your friends now
+PAGE | 22 | false | -- | you fly out of the theater, turn back into a human, and tell your friends; they think you're making it up
+EDGE | 22 | 45 | false | --
+PAGE | 45 | false | -- | you tell your friends to meet at Bat Wing Hall tonight; as you're walking past the cemetery, you hear a voice yell "HALT!"
+EDGE | 45 | 113 | true | obey command to halt
+PAGE | 113 | false | -- | you turn around and find that you're face to face with the ghost of Professor Krupnik
+EDGE | 113 | 57 | false | --
+PAGE | 57 | false | -- | Prof. Krupnik says he'll help you fully turn back into a human if you help him get rid of the "pesky" Horror Club kids
+EDGE | 57 | 81 | false | --
+PAGE | 81 | false | -- | you go to Bat Wing Hall and must decide how to get kids to leave
+EDGE | 81 | 15 | true | try to convince them Bat Wing Hall is haunted
+PAGE | 15 | false | -- | you tell Krupnik to reveal himself to scare the kids, but they aren't scared of him
+EDGE | 15 | 103 | true | scrap the scare plan and try something different
+PAGE | 103 | true | 8 | the kids start asking Krupnik questions; he enjoys the attention so you invite him to the club; he accepts and changes you back into a human
+EDGE | 15 | 136 | true | keep trying to help ghost scare the kids
+PAGE | 136 | true | -4 | the kids never get scared, which angers the ghost, who proceeds to turn you and all your friends into bats for eternity
+EDGE | 81 | 130 | true | try to get them to move Horror Club to a new place
+PAGE | 130 | false | -- | you convince the group to hold its meeting in the cemetery instead, and they agree
+EDGE | 130 | 63 | false | --
+PAGE | 63 | true | -8 | bony hands reach up from underneath the ground and pull you and your friends under
+EDGE | 45 | 109 | true | make a run for it
+PAGE | 109 | false | -- | you run to the mansion, and it doesn't seem like anyone followed you; you proceed to wait for over an hour for your friends, but they don't show
+EDGE | 109 | 14 | false | --
+PAGE | 14 | false | -- | Marcie, Lara, and Martin finally arrive; you try to tell them you've became a bat but they don't believe you
+EDGE | 14 | 82 | false | --
+PAGE | 82 | false | -- | you become a bat and they realize you're telling the truth; you try to lead them to the cemetery to help you close the Krupnik Crypt
+EDGE | 82 | 46 | false | --
+PAGE | 46 | false | -- | they follow you to the crypt; now you need to do something to make them understand that they need to close the door
+EDGE | 46 | 112 | true | fly into the crypt
+PAGE | 112 | false | -- | you fly into the crypt, and Martin realizes that he needs to close the door; after doing so, you turn back into a human, but he replaces you as a bat
+EDGE | 112 | 56 | false | --
+PAGE | 56 | false | -- | Lara tries to solve the problem by re-opening the door, but this turns her into a frog
+EDGE | 56 | 23 | false | --
+PAGE | 23 | true | 5 | you notice a warning on the door that says not to mess with it more than once a year; you and Marcie decide to keep Martin and Lara as pets until next year
+EDGE | 46 | 98 | true | perch on the door's ring
+PAGE | 98 | false | -- | you perch on the door's ring, and your friends realize they need to close the door; they try, but it's too heavy to move
+EDGE | 98 | 25 | false | --
+PAGE | 25 | false | -- | you turn the ring on the door, which allows it to close; when it shuts, lighting and thunder crackle across the sky
+EDGE | 25 | 30 | false | --
+PAGE | 30 | true | 8 | the plan works, and you turn back into a human on the spot; you promise to tell your friends the full story at the next club meeting
+EDGE | 108 | 45 | true | show your friends tonight at Bat Wing Hall
+EDGE | 137 | 5 | true | get help from Marcie
+PAGE | 5 | false | -- | you fly into Marcie's house and see some block letters you can use to spell out a message; as you start spelling, though, her younger brother Daryll grabs you
+EDGE | 5 | 42 | false | --
+PAGE | 42 | false | -- | you manage to escape and spell out "I am a bat", but when she walks in she freaks out and starts swatting at you
+EDGE | 42 | 62 | true | try to escape the situation
+PAGE | 62 | false | -- | you're flying through Marcie's house, trying to get away, and must decide between flying into the kitchen or flying upstairs
+EDGE | 62 | 104 | true | fly into the kitchen
+PAGE | 104 | true | -9 | you fly into the kitchen, and Marcie manages to land a hit; desperate, you fly into a cracked-open freezer, which Marcie slams shut, dooming you to freeze to death
+EDGE | 62 | 10 | true | fly upstairs
+PAGE | 10 | false | -- | you fly upstairs, through Daryll's room, and manage to escape out an open window; you decide to fly to Lara's house next
+EDGE | 10 | 118 | false | --
+EDGE | 42 | 123 | true | try to communicate with Marcie
+PAGE | 123 | false | -- | while she's screaming at you, you quickly build the word "help", which makes her realize you can communicate with her
+EDGE | 123 | 50 | false | --
+PAGE | 50 | false | -- | instead of trying to help you, she grabs you and shoves you into a drawer, seeing your spelling skills as an opportunity to get on TV
+EDGE | 50 | 132 | false | --
+PAGE | 132 | true | -7 | Daryll pulls you out of the drawer; you escape his grasp and try to spell out your name, but he stumbles and knocks over a heavy drawer that falls and flattens you
+EDGE | 31 | 70 | true | ignore the couple and try to find your way by yourself
+PAGE | 70 | false | -- | you manage to locate the crypt and fly into it; as you do, the door slams shut behind you, trapping you in there
+EDGE | 70 | 55 | false | --
+PAGE | 55 | false | -- | on the floor of the crypt, you see a crack; alongside it is chiseled the incomplete sentence "who enters here will be"
+EDGE | 55 | 4 | false | --
+PAGE | 4 | false | -- | you fly down into the crack and suddenly find yourself a kid again, falling down through an indefinitely deep hole
+EDGE | 4 | 135 | false | --
+PAGE | 135 | false | -- | you eventually land in a swamp; after some exploration you come to a pair of signs, one which points "to the crypt", another which has been worn to the point of unreadability
+EDGE | 135 | 87 | true | follow the mysterious weathered path
+PAGE | 87 | false | -- | you hear loud footsteps behind you, so you run into a cave marked "monster library"; the footsteps follow
+EDGE | 87 | 119 | false | --
+PAGE | 119 | false | -- | the footsteps turn out to be a huge two-headed monster; it grabs your shoulder and turns you around
+EDGE | 119 | 77 | false | --
+PAGE | 77 | false | -- | the monster starts giving you a tour of the library; halfway through, you spot a door marked "to the crypt"
+EDGE | 77 | 35 | true | make a run for the crypt door
+PAGE | 35 | false | -- | you run through the door and find yourself in deep murky water with the Swamp Thing; R.L. Stine offers you a chance to start fresh on page 1
+EDGE | 35 | 1 | false | --
+EDGE | 77 | 134 | true | stay with the monster and hope it eventually helps you get back to where you came from
+PAGE | 134 | true | -6 | the two headed monster forces you to read thousands of books to it; if you don't, it'll eat you
+EDGE | 135 | 59 | true | follow the sign labeled "to the crypt"
+PAGE | 59 | true | -6 | you find a cloaked creature rowing a boat through the river; he gives you a ride back to the cemetery, where you find a grave stone with your name.. you've died
+EDGE | 102 | 53 | true | go back to sleep and wait until next morning
+EDGE | 96 | 85 | true | ignore Nick's instructions and head for the door
+PAGE | 85 | true | -2 | you sprint across the porch but trip and fall, triggering an alarm; Nick and Debbie are nowhere to be found, and the police come to arrest you
+EDGE | 100 | 91 | true | decline Nick's invitation
+PAGE | 91 | false | -- | you go home, but realize you're super bored, so you pick up the phone and call Nick
+EDGE | 91 | 17 | false | --
