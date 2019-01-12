@@ -8,7 +8,7 @@ PAGE | 1 | false | -- | meet Nick, see his house
 EDGE | 1 | 2 | false | --
 PAGE | 2 | false | -- | talk to Nick, become friends
 EDGE | 2 | 3 | false | --
-PAGE | 2 | false | -- | Nick tells you about Horror Club
+PAGE | 3 | false | -- | Nick tells you about Horror Club
 EDGE | 3 | 100 | false | --
 PAGE | 100 | false | -- | Nick asks if you want to come to Horror Club tonight
 EDGE | 100 | 17 | true | go to Horror Club
@@ -32,7 +32,7 @@ PAGE | 47 | false | -- | discover the other kids are all monsters
 EDGE | 47 | 114 | false | --
 PAGE | 114 | false | -- | become skeptical that the monsters are real, consider might just be costumes
 EDGE | 114 | 13 | true | decide it's all a joke; the kids aren't actually monsters
-PAGE | 13 | true | -9 | pull on Nick's face to remove the "mask", monsters proceed to eat you
+PAGE | 13 | true | -7 | pull on Nick's face to remove the "mask", monsters proceed to eat you
 EDGE | 114 | 71 | true | believe monsters are real
 PAGE | 71 | false | -- | try to escape but fail, realize that only hope is to play the game
 EDGE | 71 | 48 | false | --
