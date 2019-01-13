@@ -108,7 +108,7 @@ PAGE | 95 | false | -- | witch has you recite some spells, and you notice she ha
 EDGE | 95 | 18 | false | --
 PAGE | 18 | false | -- | spell works and witch is let free; you run to elevator to get to basement, but broom gets caught in entry way
 EDGE | 18 | 21 | true | break a straw off the broom to force it through entrance
-PAGE | 21 | false | -8 | you break straw off broom and step into elevator, but realize that elevator is gone and plummet to the bottom of empty shaft, dying on impact
+PAGE | 21 | true | -8 | you break straw off broom and step into elevator, but realize that elevator is gone and plummet to the bottom of empty shaft, dying on impact
 EDGE | 18 | 115 | true | try to squeeze broom into elevator without snapping any straws
 PAGE | 115 | false | -- | you squeeze broom through, but realize there's no elevator and begin falling down empty shaft; you grab onto a railing, but begin gradually slipping
 EDGE | 115 | 49 | false | --
@@ -277,7 +277,7 @@ EDGE | 77 | 35 | true | make a run for the crypt door
 PAGE | 35 | false | -- | you run through the door and find yourself in deep murky water with the Swamp Thing; R.L. Stine offers you a chance to start fresh on page 1
 EDGE | 35 | 1 | false | --
 EDGE | 77 | 134 | true | stay with the monster and hope it eventually helps you get back to where you came from
-PAGE | 134 | true | -6 | the two headed monster forces you to read thousands of books to it; if you don't, it'll eat you
+PAGE | 134 | true | -5 | the two headed monster forces you to read thousands of books to it; if you don't, it'll eat you
 EDGE | 135 | 59 | true | follow the sign labeled "to the crypt"
 PAGE | 59 | true | -6 | you find a cloaked creature rowing a boat through the river; he gives you a ride back to the cemetery, where you find a grave stone with your name.. you've died
 EDGE | 102 | 53 | true | go back to sleep and wait until next morning

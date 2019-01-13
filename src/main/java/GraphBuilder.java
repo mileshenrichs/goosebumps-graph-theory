@@ -9,12 +9,6 @@ import java.util.Scanner;
 
 public class GraphBuilder {
 
-    public static void main(String[] args) {
-        GraphBuilder graphBuilder = new GraphBuilder();
-        Book book = graphBuilder.buildBook();
-        System.out.println(book);
-    }
-
     /**
      * Parses through page & edge data to build graph representation of the book's storylines
      * @return directed graph of pages in the book
@@ -47,7 +41,7 @@ public class GraphBuilder {
 
     private String loadGraphFileContents() {
         ClassLoader classLoader = this.getClass().getClassLoader();
-        URL resource = classLoader.getResource("story-graph.txt");
+        URL resource = classLoader.getResource("story-graph-short.txt");
         if(resource != null) {
             try {
                 File file = new File(resource.getFile());
