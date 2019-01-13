@@ -35,6 +35,7 @@ public class StoryExplorer {
             page = edge.toPage;
         }
 
+        System.out.println();
         System.out.println("====== ENDING =======================================");
         System.out.println(page.summary);
         System.out.println("Utility: " + page.utility);

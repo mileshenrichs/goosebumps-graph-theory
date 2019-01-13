@@ -24,4 +24,8 @@ public class Book {
     public void addEnding(Page endingPage) {
         endings.add(endingPage);
     }
+
+    public Page[] getPages() {
+        return pages;
+    }
 }

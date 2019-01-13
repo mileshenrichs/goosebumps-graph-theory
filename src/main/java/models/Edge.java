@@ -12,4 +12,14 @@ public class Edge {
         this.isDecision = d;
         this.decisionDescription = desc;
     }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("to page %d", toPage.pageNo));
+        if(isDecision) {
+            sb.append(String.format(" (%s)", decisionDescription));
+        }
+
+        return sb.toString();
+    }
 }
