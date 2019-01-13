@@ -32,7 +32,7 @@ PAGE | 47 | false | -- | discover the other kids are all monsters
 EDGE | 47 | 114 | false | --
 PAGE | 114 | false | -- | become skeptical that the monsters are real; might be costumes
 EDGE | 114 | 13 | true | decide it's all a joke; the kids aren't actually monsters
-PAGE | 13 | true | -7 | try to remove Nick's "mask", monsters proceed to eat you
+PAGE | 13 | true | -7 | try to remove Nick's "mask", monsters eat you
 EDGE | 114 | 71 | true | believe monsters are real
 PAGE | 71 | false | -- | fail escape attempt, realize that only hope is to play the game
 EDGE | 71 | 48 | false | --
@@ -52,7 +52,7 @@ PAGE | 6 | false | -- | Debbie says she wants to help you escape
 EDGE | 6 | 86 | true | decide Debbie is telling the truth
 PAGE | 86 | false | -- | encounter hungry-looking Nick and Connor, look to Debbie for help
 EDGE | 86 | 38 | false | --
-PAGE | 38 | false | -- | Debbie turns on you; so you run towards a door to escape
+PAGE | 38 | false | -- | Debbie turns on you; run towards a door to escape
 EDGE | 38 | 43 | false | --
 PAGE | 43 | false | -- | see mummy walking down hall, realize you must get its bandages
 EDGE | 43 | 26 | false | --
@@ -70,7 +70,7 @@ PAGE | 58 | false | -- | must choose correct enchanted stone to prevent being mu
 EDGE | 58 | 84 | true | pick red stone
 PAGE | 84 | false | -- | red stone teleports you back to Bat Wing Hall
 EDGE | 84 | 64 | false | --
-PAGE | 64 | true | -4 | an hour passed during teleport; no time -> turned into a monster
+PAGE | 64 | true | -4 | an hour has passed; no time -> turned into a monster
 EDGE | 58 | 34 | true | pick gray rock
 PAGE | 34 | false | -- | you picked the wrong rock, run to the king and cry for help
 EDGE | 34 | 52 | false | --
@@ -84,7 +84,7 @@ PAGE | 89 | false | -- | King lets you go but later changes his mind and gives c
 EDGE | 89 | 80 | true | hide from King in mummy case
 PAGE | 80 | false | -- | hide in case for a bit then pop out; you're back in Bat Wing Hall
 EDGE | 80 | 39 | false | --
-PAGE | 39 | false | -- | grab bandage, go up stairs, find yourself in a musty corridor
+PAGE | 39 | false | -- | grab bandage, go up stairs, find yourself in a corridor
 EDGE | 39 | 29 | true | you're wearing a sweatshirt/sweater, so turn right
 PAGE | 29 | false | -- | find monsters playing your favorite video game, Mud Monsters
 EDGE | 29 | 121 | false | --
@@ -114,17 +114,17 @@ PAGE | 115 | false | -- | there's no elevator so begin falling; you grab onto a 
 EDGE | 115 | 49 | false | --
 PAGE | 49 | false | -- | magic broom brings you to basement; you find cage with werewolf
 EDGE | 49 | 129 | false | --
-PAGE | 129 | false | -- | monsters come down to basement; you must pluck werewolf hairs
+PAGE | 129 | false | -- | monsters arrive; you must pluck werewolf hairs
 EDGE | 129 | 127 | false | --
 PAGE | 127 | false | -- | enter cage and realize that werewolf is scared of broom
 EDGE | 127 | 122 | true | try to command werewolf
-PAGE | 122 | false | -- | werewolf seems to obey your commands
+PAGE | 122 | false | -- | werewolf seems to obey commands
 EDGE | 122 | 8 | false | --
 PAGE | 8 | false | -- | pluck hairs; you're suddenly alone; hear Nick in other room
 EDGE | 8 | 105 | false | --
 PAGE | 105 | false | -- | find others in room as humans (not monsters)
 EDGE | 105 | 90 | false | --
-PAGE | 90 | true | 9 | realize you freed them from a curse they now have knowledge about
+PAGE | 90 | true | 9 | realize you freed them from a curse
 EDGE | 127 | 101 | true | pretend to be a werewolf
 PAGE | 101 | true | -5 | werewolf is fooled, but you're out of time and become a werewolf
 EDGE | 107 | 44 | true | choose to leave the witch in the box and steal her broom
@@ -132,7 +132,7 @@ PAGE | 44 | true | -6 | witch forces you to fly high up in the air on her broom 
 EDGE | 89 | 99 | true | run towards some tall grass to hide
 PAGE | 99 | false | -- | hide successfully, but encounter huge, threatening snake
 EDGE | 99 | 110 | false | --
-PAGE | 110 | false | -- | rescued by snake charmer who understands your situation
+PAGE | 110 | false | -- | rescued by snake charmer
 EDGE | 110 | 125 | false | --
 PAGE | 125 | true | -3 | must play the flute everyday for three years to be safe from snake
 EDGE | 94 | 39 | true | tear a strip of bandage off sleeping mummy
@@ -190,7 +190,7 @@ PAGE | 36 | false | -- | when you fly into Martin's house, you're captured by hi
 EDGE | 36 | 60 | false | --
 PAGE | 60 | true | -5 | you're taken to the zoo, where you will be kept forever
 EDGE | 137 | 118 | true | get help from Lara
-PAGE | 118 | false | -- | you fly outside of Lara's window and call to her
+PAGE | 118 | false | -- | you fly outside Lara's window, call to her
 EDGE | 118 | 76 | false | --
 PAGE | 76 | false | -- | Lara freaks out so you fly home, get invited to mall by friends
 EDGE | 76 | 133 | false | --
@@ -204,7 +204,7 @@ PAGE | 108 | false | -- | in the theater, you suddenly turn into a bat and hide 
 EDGE | 108 | 22 | true | tell your friends now
 PAGE | 22 | false | -- | tell your friends; they think you're making it up
 EDGE | 22 | 45 | false | --
-PAGE | 45 | false | -- | agree to meet tonight; walking in cemetery, you hear "HALT!"
+PAGE | 45 | false | -- | agree to meet; walking in cemetery, you hear "HALT!"
 EDGE | 45 | 113 | true | obey command to halt
 PAGE | 113 | false | -- | find yourself face to face with the ghost of Professor Krupnik
 EDGE | 113 | 57 | false | --
@@ -230,7 +230,7 @@ PAGE | 82 | false | -- | you transform and they realize you're telling the truth
 EDGE | 82 | 46 | false | --
 PAGE | 46 | false | -- | they follow you to the crypt; need to do tell them to close door
 EDGE | 46 | 112 | true | fly into the crypt
-PAGE | 112 | false | -- | Martin closes door, you turn back, but he replaces you as a bat
+PAGE | 112 | false | -- | Martin closes door, you turn back, but he becomes a bat
 EDGE | 112 | 56 | false | --
 PAGE | 56 | false | -- | Lara tries to re-open the door, but becomes a frog
 EDGE | 56 | 23 | false | --
@@ -254,7 +254,7 @@ EDGE | 62 | 10 | true | fly upstairs
 PAGE | 10 | false | -- | you escape out an open window; you fly to Lara's house next
 EDGE | 10 | 118 | false | --
 EDGE | 42 | 123 | true | try to communicate with Marcie
-PAGE | 123 | false | -- | you build the word "help", she realizes you can communicate
+PAGE | 123 | false | -- | you build "help", she realizes you can communicate
 EDGE | 123 | 50 | false | --
 PAGE | 50 | false | -- | she traps you, hoping to use your spelling skills to get on TV
 EDGE | 50 | 132 | false | --
@@ -262,11 +262,11 @@ PAGE | 132 | true | -7 | her brother frees you, but knocks over a drawer that fl
 EDGE | 31 | 70 | true | ignore the couple and try to find your way by yourself
 PAGE | 70 | false | -- | you manage to locate the crypt and fly into it; door slams shut
 EDGE | 70 | 55 | false | --
-PAGE | 55 | false | -- | you see a crack; chiseled nearby is "who enters here will be.."
+PAGE | 55 | false | -- | you see a crack in the floor
 EDGE | 55 | 4 | false | --
 PAGE | 4 | false | -- | you fly down the crack and are a kid again, falling indefinitely
 EDGE | 4 | 135 | false | --
-PAGE | 135 | false | -- | you eventually land in a swamp and come to a fork in the path
+PAGE | 135 | false | -- | you eventually land in a swamp, reach a fork in path
 EDGE | 135 | 87 | true | follow the mysterious weathered path
 PAGE | 87 | false | -- | hear footsteps, so you run into a cave marked "monster library"
 EDGE | 87 | 119 | false | --
@@ -274,12 +274,12 @@ PAGE | 119 | false | -- | the footsteps are a huge two-headed monster; it grabs 
 EDGE | 119 | 77 | false | --
 PAGE | 77 | false | -- | monster starts giving you a tour of the library
 EDGE | 77 | 35 | true | make a run for the crypt door you see
-PAGE | 35 | false | -- | confronted by Swamp Thing; R.L. Stine lets you return to page 1
+PAGE | 35 | false | -- | confronted by Swamp Thing; R.L. Stine lets you restart
 EDGE | 35 | 1 | false | --
 EDGE | 77 | 134 | true | stay with the monster and hope it eventually helps you get back
 PAGE | 134 | true | -5 | the two headed monster forces you to read thousands of books to it
 EDGE | 135 | 59 | true | follow the sign labeled "to the crypt"
-PAGE | 59 | true | -6 | creature returns you to cemetery, see your tombstone.. you've died
+PAGE | 59 | true | -6 | return to cemetery, see your tombstone.. you've died
 EDGE | 102 | 53 | true | go back to sleep and wait until next morning
 EDGE | 96 | 85 | true | ignore Nick's instructions and head for the door
 PAGE | 85 | true | -2 | you trigger an alarm; the police come to arrest you
