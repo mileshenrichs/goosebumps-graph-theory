@@ -1,0 +1,1227 @@
+{
+    "nodes": [
+        {
+            "summary": "meet Nick, see his house",
+            "id": 1
+        },
+        {
+            "summary": "talk to Nick, become friends",
+            "id": 2
+        },
+        {
+            "summary": "Nick tells you about Horror Club",
+            "id": 3
+        },
+        {
+            "summary": "you fly down the crack and are a kid again, falling indefinitely",
+            "id": 4
+        },
+        {
+            "summary": "you fly into Marcie's house but her younger brother grabs you",
+            "id": 5
+        },
+        {
+            "summary": "Debbie says she wants to help you escape",
+            "id": 6
+        },
+        {
+            "summary": "tidal wave coming (in-game), must decide whether to jump or duck",
+            "id": 7
+        },
+        {
+            "summary": "pluck hairs; you're suddenly alone; hear Nick in other room",
+            "id": 8
+        },
+        {
+            "summary": "find nothing in tomb; leave and realize your friends are gone",
+            "id": 9
+        },
+        {
+            "summary": "you escape out an open window; you fly to Lara's house next",
+            "id": 10
+        },
+        {
+            "summary": "begin searching around living room area",
+            "id": 11
+        },
+        {
+            "summary": "see blood seeping out of a closed closet",
+            "id": 12
+        },
+        {
+            "summary": "try to remove Nick's \"mask\", monsters eat you",
+            "utility": -7,
+            "id": 13
+        },
+        {
+            "summary": "friends finally arrive; you tell them but they don't believe you",
+            "id": 14
+        },
+        {
+            "summary": "tell Krupnik to reveal himself, but kids aren't scared of him",
+            "id": 15
+        },
+        {
+            "summary": "Debbie throws spiders at you; you run down hall and find 2 doors",
+            "id": 16
+        },
+        {
+            "summary": "walk to Bat Wing Hall with Nick",
+            "id": 17
+        },
+        {
+            "summary": "spell works; you run to elevator, but broom gets caught in entry",
+            "id": 18
+        },
+        {
+            "summary": "enter Hall with Nick and Debbie",
+            "id": 19
+        },
+        {
+            "summary": "jump wave, win game against Nick; make a run for it",
+            "id": 20
+        },
+        {
+            "summary": "step into elevator but it's gone, plummet to your death",
+            "utility": -8,
+            "id": 21
+        },
+        {
+            "summary": "tell your friends; they think you're making it up",
+            "id": 22
+        },
+        {
+            "summary": "you and Marcie decide to keep Martin and Lara as pets",
+            "utility": 5,
+            "id": 23
+        },
+        {
+            "summary": "King ties you down, plans to take you to the afterlife as a mummy",
+            "id": 24
+        },
+        {
+            "summary": "you turn the ring on the door, which allows it to close",
+            "id": 25
+        },
+        {
+            "summary": "start following, but hear monsters talking about you behind door",
+            "id": 26
+        },
+        {
+            "summary": "start flying, eventually realize you're not sure where you are",
+            "id": 27
+        },
+        {
+            "summary": "find yourself suddenly paralyzed; Nick mocks you",
+            "id": 28
+        },
+        {
+            "summary": "find monsters playing your favorite video game, Mud Monsters",
+            "id": 29
+        },
+        {
+            "summary": "the plan works, and you turn back into a human on the spot",
+            "utility": 8,
+            "id": 30
+        },
+        {
+            "summary": "you see a couple walking their dog nearby",
+            "id": 31
+        },
+        {
+            "summary": "get stuck in hole; a slimy monster comes and consumes you",
+            "utility": -7,
+            "id": 32
+        },
+        {
+            "summary": "going to play \"The Hunt\", first have to pass a test at cemetery",
+            "id": 33
+        },
+        {
+            "summary": "you picked the wrong rock, run to the king and cry for help",
+            "id": 34
+        },
+        {
+            "summary": "confronted by Swamp Thing; R.L. Stine lets you restart",
+            "id": 35
+        },
+        {
+            "summary": "when you fly into Martin's house, you're captured by his dad",
+            "id": 36
+        },
+        {
+            "summary": "break out of case but find yourself surrounded by men in robes",
+            "id": 37
+        },
+        {
+            "summary": "Debbie turns on you; run towards a door to escape",
+            "id": 38
+        },
+        {
+            "summary": "grab bandage, go up stairs, find yourself in a corridor",
+            "id": 39
+        },
+        {
+            "summary": "realize you're still a bat that is a human during the daytime",
+            "id": 40
+        },
+        {
+            "summary": "eat beetles, get arrested, later concoct a hit ice cream flavor",
+            "utility": -2,
+            "id": 41
+        },
+        {
+            "summary": "you escape and spell \"I am a bat\", but she starts swatting at you",
+            "id": 42
+        },
+        {
+            "summary": "see mummy walking down hall, realize you must get its bandages",
+            "id": 43
+        },
+        {
+            "summary": "witch forces you to fly high up in the air on her broom forever",
+            "utility": -6,
+            "id": 44
+        },
+        {
+            "summary": "agree to meet; walking in cemetery, you hear \"HALT!\"",
+            "id": 45
+        },
+        {
+            "summary": "they follow you to the crypt; need to do tell them to close door",
+            "id": 46
+        },
+        {
+            "summary": "discover the other kids are all monsters",
+            "id": 47
+        },
+        {
+            "summary": "learn you'll become a monster if you can't find all four items",
+            "id": 48
+        },
+        {
+            "summary": "magic broom brings you to basement; you find cage with werewolf",
+            "id": 49
+        },
+        {
+            "summary": "she traps you, hoping to use your spelling skills to get on TV",
+            "id": 50
+        },
+        {
+            "summary": "you're trapped in a force field, and doomed to become a monster",
+            "utility": -4,
+            "id": 51
+        },
+        {
+            "summary": "King calls the evil priests off, invites you to stay with him",
+            "id": 52
+        },
+        {
+            "summary": "you wake up next morning as your normal self, but crave beetles",
+            "id": 53
+        },
+        {
+            "summary": "you accidentally fly into woman; escape and just fly back home",
+            "id": 54
+        },
+        {
+            "summary": "you see a crack in the floor",
+            "id": 55
+        },
+        {
+            "summary": "Lara tries to re-open the door, but becomes a frog",
+            "id": 56
+        },
+        {
+            "summary": "Krupnik says he'll help you if you get rid of the \"pesky\" kids",
+            "id": 57
+        },
+        {
+            "summary": "must choose correct enchanted stone to prevent being mummified",
+            "id": 58
+        },
+        {
+            "summary": "return to cemetery, see your tombstone.. you've died",
+            "utility": -6,
+            "id": 59
+        },
+        {
+            "summary": "you're taken to the zoo, where you will be kept forever",
+            "utility": -5,
+            "id": 60
+        },
+        {
+            "summary": "you're stuck in a force field, but eventually manage to roll out",
+            "id": 61
+        },
+        {
+            "summary": "you're flying through Marcie's house, trying to get away",
+            "id": 62
+        },
+        {
+            "summary": "bony hands reach up from underground and pull you all under",
+            "utility": -8,
+            "id": 63
+        },
+        {
+            "summary": "an hour has passed; no time -> turned into a monster",
+            "utility": -4,
+            "id": 64
+        },
+        {
+            "summary": "learn house turns visitors to stone, and realize it's happening",
+            "utility": -6,
+            "id": 65
+        },
+        {
+            "summary": "must decide to join either Red or Blue team",
+            "id": 66
+        },
+        {
+            "summary": "detach bone from hand, get called over by Debbie's whispers",
+            "id": 67
+        },
+        {
+            "summary": "find rope ladder, start climbing up it",
+            "id": 68
+        },
+        {
+            "summary": "see the engraving: \"who turns the stone will grow bat bones\"",
+            "id": 69
+        },
+        {
+            "summary": "you manage to locate the crypt and fly into it; door slams shut",
+            "id": 70
+        },
+        {
+            "summary": "fail escape attempt, realize that only hope is to play the game",
+            "id": 71
+        },
+        {
+            "summary": "ducking under wave fails, you lose, Nick turns you into a monster",
+            "utility": -4,
+            "id": 72
+        },
+        {
+            "summary": "at the science store, you see beetles and feel bat instincts",
+            "id": 73
+        },
+        {
+            "summary": "realize you must return to Krupnik Crypt at night (as a bat)",
+            "id": 74
+        },
+        {
+            "summary": "introduced to other club members",
+            "id": 75
+        },
+        {
+            "summary": "Lara freaks out so you fly home, get invited to mall by friends",
+            "id": 76
+        },
+        {
+            "summary": "monster starts giving you a tour of the library",
+            "id": 77
+        },
+        {
+            "summary": "time is up (you're running on monster time), you become a monster",
+            "utility": -4,
+            "id": 78
+        },
+        {
+            "summary": "ask teammates if creepy items are legit, they say yes",
+            "id": 79
+        },
+        {
+            "summary": "hide in case for a bit then pop out; you're back in Bat Wing Hall",
+            "id": 80
+        },
+        {
+            "summary": "you go to Bat Wing Hall and must decide how to get kids to leave",
+            "id": 81
+        },
+        {
+            "summary": "you transform and they realize you're telling the truth",
+            "id": 82
+        },
+        {
+            "summary": "find human hand in closet",
+            "id": 83
+        },
+        {
+            "summary": "red stone teleports you back to Bat Wing Hall",
+            "id": 84
+        },
+        {
+            "summary": "you trigger an alarm; the police come to arrest you",
+            "utility": -2,
+            "id": 85
+        },
+        {
+            "summary": "encounter hungry-looking Nick and Connor, look to Debbie for help",
+            "id": 86
+        },
+        {
+            "summary": "hear footsteps, so you run into a cave marked \"monster library\"",
+            "id": 87
+        },
+        {
+            "summary": "see list of items for scavenger hunt",
+            "id": 88
+        },
+        {
+            "summary": "King lets you go but later changes his mind and gives chase",
+            "id": 89
+        },
+        {
+            "summary": "realize you freed them from a curse",
+            "utility": 9,
+            "id": 90
+        },
+        {
+            "summary": "you go home, but you're super bored, so you call Nick anyway",
+            "id": 91
+        },
+        {
+            "summary": "you fly around the night sky, develop an appreciation for sonar",
+            "id": 92
+        },
+        {
+            "summary": "head home, wake up in the middle of the night",
+            "id": 93
+        },
+        {
+            "summary": "find mummy sleeping beside its case at end of hall",
+            "id": 94
+        },
+        {
+            "summary": "witch has you recite spells, you notice her fingers are crossed",
+            "id": 95
+        },
+        {
+            "summary": "start approaching Hall, Nick shouts \"get down!\" at you",
+            "id": 96
+        },
+        {
+            "summary": "grab some bandages, which might be one of items you need",
+            "id": 97
+        },
+        {
+            "summary": "your friends realize they need to close door but it's too heavy",
+            "id": 98
+        },
+        {
+            "summary": "hide successfully, but encounter huge, threatening snake",
+            "id": 99
+        },
+        {
+            "summary": "Nick asks if you want to come to Horror Club tonight",
+            "id": 100
+        },
+        {
+            "summary": "werewolf is fooled, but you're out of time and become a werewolf",
+            "utility": -5,
+            "id": 101
+        },
+        {
+            "summary": "you recall the warning on Krupnik Crypt",
+            "id": 102
+        },
+        {
+            "summary": "Krupnik enjoys attention so he joins club and makes you human",
+            "utility": 8,
+            "id": 103
+        },
+        {
+            "summary": "Marcie slams you into a freezer and you freeze to death",
+            "utility": -9,
+            "id": 104
+        },
+        {
+            "summary": "find others in room as humans (not monsters)",
+            "id": 105
+        },
+        {
+            "summary": "you go to cemetery and find a building labeled \"Krupnik Crypt\"",
+            "id": 106
+        },
+        {
+            "summary": "woman identifies herself as a witch, asks you to help her escape",
+            "id": 107
+        },
+        {
+            "summary": "in the theater, you suddenly turn into a bat and hide on ceiling",
+            "id": 108
+        },
+        {
+            "summary": "you run to the mansion and wait for over an hour for friends",
+            "id": 109
+        },
+        {
+            "summary": "rescued by snake charmer",
+            "id": 110
+        },
+        {
+            "summary": "hear the monsters whispering behind you; start sprinting up stairs",
+            "id": 111
+        },
+        {
+            "summary": "Martin closes door, you turn back, but he becomes a bat",
+            "id": 112
+        },
+        {
+            "summary": "find yourself face to face with the ghost of Professor Krupnik",
+            "id": 113
+        },
+        {
+            "summary": "become skeptical that the monsters are real; might be costumes",
+            "id": 114
+        },
+        {
+            "summary": "there's no elevator so begin falling; you grab onto a railing",
+            "id": 115
+        },
+        {
+            "summary": "successfully escape and return home to play the game with brother",
+            "utility": 8,
+            "id": 116
+        },
+        {
+            "summary": "get pulled into case, try to bust your way back out",
+            "id": 117
+        },
+        {
+            "summary": "you fly outside Lara's window, call to her",
+            "id": 118
+        },
+        {
+            "summary": "the footsteps are a huge two-headed monster; it grabs you",
+            "id": 119
+        },
+        {
+            "summary": "you are mummified alive",
+            "utility": -10,
+            "id": 120
+        },
+        {
+            "summary": "challenge Connor to contest in exchange for freedom",
+            "id": 121
+        },
+        {
+            "summary": "werewolf seems to obey commands",
+            "id": 122
+        },
+        {
+            "summary": "you build \"help\", she realizes you can communicate",
+            "id": 123
+        },
+        {
+            "summary": "you look in the mirror and discover you've turned into a bat",
+            "id": 124
+        },
+        {
+            "summary": "must play the flute everyday for three years to be safe from snake",
+            "utility": -3,
+            "id": 125
+        },
+        {
+            "summary": "you fall into a closet; realize you're at home, starting over",
+            "id": 126
+        },
+        {
+            "summary": "enter cage and realize that werewolf is scared of broom",
+            "id": 127
+        },
+        {
+            "summary": "learn that you'll be playing scary games tonight",
+            "id": 128
+        },
+        {
+            "summary": "monsters arrive; you must pluck werewolf hairs",
+            "id": 129
+        },
+        {
+            "summary": "convince group to meet in the cemetery instead, they agree",
+            "id": 130
+        },
+        {
+            "summary": "climb into attic, find a woman in a box who's been waiting for you",
+            "id": 131
+        },
+        {
+            "summary": "her brother frees you, but knocks over a drawer that flattens you",
+            "utility": -7,
+            "id": 132
+        },
+        {
+            "summary": "you meet your friends at the mall",
+            "id": 133
+        },
+        {
+            "summary": "the two headed monster forces you to read thousands of books to it",
+            "utility": -5,
+            "id": 134
+        },
+        {
+            "summary": "you eventually land in a swamp, reach a fork in path",
+            "id": 135
+        },
+        {
+            "summary": "ghost gets angry, turns you and all your friends into bats",
+            "utility": -4,
+            "id": 136
+        },
+        {
+            "summary": "get to crypt, realize you're too small to open it",
+            "id": 137
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 3,
+            "target": 100
+        },
+        {
+            "source": 4,
+            "target": 135
+        },
+        {
+            "source": 5,
+            "target": 42
+        },
+        {
+            "decisionDesc": "decide Debbie is telling the truth",
+            "source": 6,
+            "target": 86
+        },
+        {
+            "decisionDesc": "decide to ignore Debbie's offer and continue hunting",
+            "source": 6,
+            "target": 16
+        },
+        {
+            "decisionDesc": "jump the wave",
+            "source": 7,
+            "target": 20
+        },
+        {
+            "decisionDesc": "duck under wave",
+            "source": 7,
+            "target": 72
+        },
+        {
+            "source": 8,
+            "target": 105
+        },
+        {
+            "source": 9,
+            "target": 93
+        },
+        {
+            "source": 10,
+            "target": 118
+        },
+        {
+            "source": 11,
+            "target": 97
+        },
+        {
+            "decisionDesc": "open bloody closet door",
+            "source": 12,
+            "target": 83
+        },
+        {
+            "decisionDesc": "stay away from closet door, head back towards dining room instead",
+            "source": 12,
+            "target": 78
+        },
+        {
+            "source": 14,
+            "target": 82
+        },
+        {
+            "decisionDesc": "scrap the scare plan and try something different",
+            "source": 15,
+            "target": 103
+        },
+        {
+            "decisionDesc": "keep trying to help ghost scare the kids",
+            "source": 15,
+            "target": 136
+        },
+        {
+            "decisionDesc": "go through orange door",
+            "source": 16,
+            "target": 126
+        },
+        {
+            "decisionDesc": "go through green door",
+            "source": 16,
+            "target": 43
+        },
+        {
+            "source": 17,
+            "target": 96
+        },
+        {
+            "decisionDesc": "break a straw off the broom to force it through entrance",
+            "source": 18,
+            "target": 21
+        },
+        {
+            "decisionDesc": "try to squeeze broom into elevator without snapping any straws",
+            "source": 18,
+            "target": 115
+        },
+        {
+            "source": 19,
+            "target": 75
+        },
+        {
+            "source": 20,
+            "target": 116
+        },
+        {
+            "source": 22,
+            "target": 45
+        },
+        {
+            "source": 24,
+            "target": 120
+        },
+        {
+            "source": 25,
+            "target": 30
+        },
+        {
+            "decisionDesc": "decide to eavesdrop on Nick, Connor, and Debbie",
+            "source": 26,
+            "target": 65
+        },
+        {
+            "decisionDesc": "decide to follow mummy instead of eavesdrop on monsters",
+            "source": 26,
+            "target": 94
+        },
+        {
+            "source": 27,
+            "target": 31
+        },
+        {
+            "decisionDesc": "decide to accept monsters' help",
+            "source": 28,
+            "target": 51
+        },
+        {
+            "decisionDesc": "refuse monsters' help",
+            "source": 28,
+            "target": 61
+        },
+        {
+            "source": 29,
+            "target": 121
+        },
+        {
+            "decisionDesc": "ask the couple for help",
+            "source": 31,
+            "target": 54
+        },
+        {
+            "decisionDesc": "ignore the couple and try to find your way by yourself",
+            "source": 31,
+            "target": 70
+        },
+        {
+            "source": 33,
+            "target": 106
+        },
+        {
+            "source": 34,
+            "target": 52
+        },
+        {
+            "source": 35,
+            "target": 1
+        },
+        {
+            "source": 36,
+            "target": 60
+        },
+        {
+            "source": 37,
+            "target": 58
+        },
+        {
+            "source": 38,
+            "target": 43
+        },
+        {
+            "decisionDesc": "you're wearing a sweatshirt/sweater, so turn right",
+            "source": 39,
+            "target": 29
+        },
+        {
+            "decisionDesc": "you're not wearing a sweatshirt/sweater, so turn left",
+            "source": 39,
+            "target": 68
+        },
+        {
+            "source": 40,
+            "target": 74
+        },
+        {
+            "decisionDesc": "try to escape the situation",
+            "source": 42,
+            "target": 62
+        },
+        {
+            "decisionDesc": "try to communicate with Marcie",
+            "source": 42,
+            "target": 123
+        },
+        {
+            "source": 43,
+            "target": 26
+        },
+        {
+            "decisionDesc": "obey command to halt",
+            "source": 45,
+            "target": 113
+        },
+        {
+            "decisionDesc": "make a run for it",
+            "source": 45,
+            "target": 109
+        },
+        {
+            "decisionDesc": "fly into the crypt",
+            "source": 46,
+            "target": 112
+        },
+        {
+            "decisionDesc": "perch on the door's ring",
+            "source": 46,
+            "target": 98
+        },
+        {
+            "source": 47,
+            "target": 114
+        },
+        {
+            "decisionDesc": "decide to stay on the main floor",
+            "source": 48,
+            "target": 11
+        },
+        {
+            "decisionDesc": "decide to explore upstairs",
+            "source": 48,
+            "target": 111
+        },
+        {
+            "source": 49,
+            "target": 129
+        },
+        {
+            "source": 50,
+            "target": 132
+        },
+        {
+            "decisionDesc": "accept King's offer to stay with him",
+            "source": 52,
+            "target": 24
+        },
+        {
+            "decisionDesc": "decline King's offer, decide to leave the palace",
+            "source": 52,
+            "target": 89
+        },
+        {
+            "source": 53,
+            "target": 40
+        },
+        {
+            "source": 54,
+            "target": 53
+        },
+        {
+            "source": 55,
+            "target": 4
+        },
+        {
+            "source": 56,
+            "target": 23
+        },
+        {
+            "source": 57,
+            "target": 81
+        },
+        {
+            "decisionDesc": "pick red stone",
+            "source": 58,
+            "target": 84
+        },
+        {
+            "decisionDesc": "pick gray rock",
+            "source": 58,
+            "target": 34
+        },
+        {
+            "source": 61,
+            "target": 11
+        },
+        {
+            "decisionDesc": "fly into the kitchen",
+            "source": 62,
+            "target": 104
+        },
+        {
+            "decisionDesc": "fly upstairs",
+            "source": 62,
+            "target": 10
+        },
+        {
+            "decisionDesc": "join Red Team",
+            "source": 66,
+            "target": 88
+        },
+        {
+            "decisionDesc": "join Blue Team",
+            "source": 66,
+            "target": 33
+        },
+        {
+            "source": 67,
+            "target": 6
+        },
+        {
+            "source": 68,
+            "target": 131
+        },
+        {
+            "decisionDesc": "crawl into the crypt through the hole on top",
+            "source": 69,
+            "target": 32
+        },
+        {
+            "decisionDesc": "try to open stone door",
+            "source": 69,
+            "target": 9
+        },
+        {
+            "source": 70,
+            "target": 55
+        },
+        {
+            "source": 71,
+            "target": 48
+        },
+        {
+            "source": 73,
+            "target": 41
+        },
+        {
+            "source": 74,
+            "target": 92
+        },
+        {
+            "source": 75,
+            "target": 128
+        },
+        {
+            "source": 76,
+            "target": 133
+        },
+        {
+            "decisionDesc": "make a run for the crypt door you see",
+            "source": 77,
+            "target": 35
+        },
+        {
+            "decisionDesc": "stay with the monster and hope it eventually helps you get back",
+            "source": 77,
+            "target": 134
+        },
+        {
+            "source": 79,
+            "target": 47
+        },
+        {
+            "source": 80,
+            "target": 39
+        },
+        {
+            "decisionDesc": "try to convince them Bat Wing Hall is haunted",
+            "source": 81,
+            "target": 15
+        },
+        {
+            "decisionDesc": "try to get them to move Horror Club to a new place",
+            "source": 81,
+            "target": 130
+        },
+        {
+            "source": 82,
+            "target": 46
+        },
+        {
+            "source": 83,
+            "target": 67
+        },
+        {
+            "source": 84,
+            "target": 64
+        },
+        {
+            "source": 86,
+            "target": 38
+        },
+        {
+            "source": 87,
+            "target": 119
+        },
+        {
+            "source": 88,
+            "target": 79
+        },
+        {
+            "decisionDesc": "hide from King in mummy case",
+            "source": 89,
+            "target": 80
+        },
+        {
+            "decisionDesc": "run towards some tall grass to hide",
+            "source": 89,
+            "target": 99
+        },
+        {
+            "source": 91,
+            "target": 17
+        },
+        {
+            "source": 92,
+            "target": 137
+        },
+        {
+            "source": 93,
+            "target": 124
+        },
+        {
+            "decisionDesc": "take a piece of bandage from mummy's case",
+            "source": 94,
+            "target": 117
+        },
+        {
+            "decisionDesc": "tear a strip of bandage off sleeping mummy",
+            "source": 94,
+            "target": 39
+        },
+        {
+            "source": 95,
+            "target": 18
+        },
+        {
+            "decisionDesc": "drop to the ground, following Nick's instructions",
+            "source": 96,
+            "target": 19
+        },
+        {
+            "decisionDesc": "ignore Nick's instructions and head for the door",
+            "source": 96,
+            "target": 85
+        },
+        {
+            "source": 97,
+            "target": 12
+        },
+        {
+            "source": 98,
+            "target": 25
+        },
+        {
+            "source": 99,
+            "target": 110
+        },
+        {
+            "decisionDesc": "go to Horror Club",
+            "source": 100,
+            "target": 17
+        },
+        {
+            "decisionDesc": "decline Nick's invitation",
+            "source": 100,
+            "target": 91
+        },
+        {
+            "decisionDesc": "return to the cemetery",
+            "source": 102,
+            "target": 27
+        },
+        {
+            "decisionDesc": "go back to sleep and wait until next morning",
+            "source": 102,
+            "target": 53
+        },
+        {
+            "source": 105,
+            "target": 90
+        },
+        {
+            "source": 106,
+            "target": 69
+        },
+        {
+            "decisionDesc": "choose to help the witch",
+            "source": 107,
+            "target": 95
+        },
+        {
+            "decisionDesc": "choose to leave the witch in the box and steal her broom",
+            "source": 107,
+            "target": 44
+        },
+        {
+            "decisionDesc": "tell your friends now",
+            "source": 108,
+            "target": 22
+        },
+        {
+            "decisionDesc": "show your friends tonight at Bat Wing Hall",
+            "source": 108,
+            "target": 45
+        },
+        {
+            "source": 109,
+            "target": 14
+        },
+        {
+            "source": 110,
+            "target": 125
+        },
+        {
+            "source": 111,
+            "target": 28
+        },
+        {
+            "source": 112,
+            "target": 56
+        },
+        {
+            "source": 113,
+            "target": 57
+        },
+        {
+            "decisionDesc": "decide it's all a joke; the kids aren't actually monsters",
+            "source": 114,
+            "target": 13
+        },
+        {
+            "decisionDesc": "believe monsters are real",
+            "source": 114,
+            "target": 71
+        },
+        {
+            "source": 115,
+            "target": 49
+        },
+        {
+            "source": 117,
+            "target": 37
+        },
+        {
+            "source": 118,
+            "target": 76
+        },
+        {
+            "source": 119,
+            "target": 77
+        },
+        {
+            "source": 121,
+            "target": 7
+        },
+        {
+            "source": 122,
+            "target": 8
+        },
+        {
+            "source": 123,
+            "target": 50
+        },
+        {
+            "source": 124,
+            "target": 102
+        },
+        {
+            "source": 126,
+            "target": 1
+        },
+        {
+            "decisionDesc": "try to command werewolf",
+            "source": 127,
+            "target": 122
+        },
+        {
+            "decisionDesc": "pretend to be a werewolf",
+            "source": 127,
+            "target": 101
+        },
+        {
+            "source": 128,
+            "target": 66
+        },
+        {
+            "source": 129,
+            "target": 127
+        },
+        {
+            "source": 130,
+            "target": 63
+        },
+        {
+            "source": 131,
+            "target": 107
+        },
+        {
+            "decisionDesc": "go to the science store",
+            "source": 133,
+            "target": 73
+        },
+        {
+            "decisionDesc": "go see the Dracula movie",
+            "source": 133,
+            "target": 108
+        },
+        {
+            "decisionDesc": "follow the mysterious weathered path",
+            "source": 135,
+            "target": 87
+        },
+        {
+            "decisionDesc": "follow the sign labeled \"to the crypt\"",
+            "source": 135,
+            "target": 59
+        },
+        {
+            "decisionDesc": "get help from Martin",
+            "source": 137,
+            "target": 36
+        },
+        {
+            "decisionDesc": "get help from Lara",
+            "source": 137,
+            "target": 118
+        },
+        {
+            "decisionDesc": "get help from Marcie",
+            "source": 137,
+            "target": 5
+        }
+    ]
+}

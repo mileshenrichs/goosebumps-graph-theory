@@ -12,8 +12,7 @@ public class StoryExplorer {
 
     public static void main(String[] args) {
         // build graph structure from input file
-        GraphBuilder graphBuilder = new GraphBuilder();
-        Book book = graphBuilder.buildBook();
+        Book book = new GraphBuilder().buildBook();
 
         // choose first option every time
         followFirstPath(book);

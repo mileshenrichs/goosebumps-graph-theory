@@ -27,8 +27,7 @@ public class Neo4jQueryBuilder {
         PrintWriter writer = new PrintWriter(outFilePath.toString(), "UTF-8");
 
         // get Book graph, instantiate Query object
-        GraphBuilder graphBuilder = new GraphBuilder();
-        Book book = graphBuilder.buildBook();
+        Book book = new GraphBuilder().buildBook();
         Query query = new Query();
 
         // create pages first (need to be able to reference them for edge creation), then edges
