@@ -50,7 +50,7 @@ public class JsonDataBuilder {
 
         for(Page page : book.getPages()) {
             nodesArr.put(new JSONObject()
-                .put("id", page.pageNo)
+                .put("pageNo", page.pageNo)
                 .put("utility", page.utility)
                 .put("summary", page.summary));
         }
