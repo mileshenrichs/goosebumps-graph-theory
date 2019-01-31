@@ -15,7 +15,7 @@ import java.nio.file.Paths;
  * This class is used to build a JSON object representing the story graph with the following structure:
  *      {
  *          nodes: [
- *              {id, utility, summary},
+ *              {pageNo, utility, pageSummary},
  *              { ... },
  *              { ... },
  *              ...
@@ -52,7 +52,7 @@ public class JsonDataBuilder {
             nodesArr.put(new JSONObject()
                 .put("pageNo", page.pageNo)
                 .put("utility", page.utility)
-                .put("summary", page.summary));
+                .put("pageSummary", page.summary));
         }
 
         for(Page page : book.getPages()) {

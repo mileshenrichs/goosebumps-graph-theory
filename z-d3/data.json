@@ -1,578 +1,578 @@
 {
     "nodes": [
         {
-            "summary": "meet Nick, see his house",
-            "pageNo": 1
+            "pageNo": 1,
+            "pageSummary": "meet Nick, see his house"
         },
         {
-            "summary": "talk to Nick, become friends",
-            "pageNo": 2
+            "pageNo": 2,
+            "pageSummary": "talk to Nick, become friends"
         },
         {
-            "summary": "Nick tells you about Horror Club",
-            "pageNo": 3
+            "pageNo": 3,
+            "pageSummary": "Nick tells you about Horror Club"
         },
         {
-            "summary": "you fly down the crack and are a kid again, falling indefinitely",
-            "pageNo": 4
+            "pageNo": 4,
+            "pageSummary": "you fly down the crack and are a kid again, falling indefinitely"
         },
         {
-            "summary": "you fly into Marcie's house but her younger brother grabs you",
-            "pageNo": 5
+            "pageNo": 5,
+            "pageSummary": "you fly into Marcie's house but her younger brother grabs you"
         },
         {
-            "summary": "Debbie says she wants to help you escape",
-            "pageNo": 6
+            "pageNo": 6,
+            "pageSummary": "Debbie says she wants to help you escape"
         },
         {
-            "summary": "tidal wave coming (in-game), must decide whether to jump or duck",
-            "pageNo": 7
+            "pageNo": 7,
+            "pageSummary": "tidal wave coming (in-game), must decide whether to jump or duck"
         },
         {
-            "summary": "pluck hairs; you're suddenly alone; hear Nick in other room",
-            "pageNo": 8
+            "pageNo": 8,
+            "pageSummary": "pluck hairs; you're suddenly alone; hear Nick in other room"
         },
         {
-            "summary": "find nothing in tomb; leave and realize your friends are gone",
-            "pageNo": 9
+            "pageNo": 9,
+            "pageSummary": "find nothing in tomb; leave and realize your friends are gone"
         },
         {
-            "summary": "you escape out an open window; you fly to Lara's house next",
-            "pageNo": 10
+            "pageNo": 10,
+            "pageSummary": "you escape out an open window; you fly to Lara's house next"
         },
         {
-            "summary": "begin searching around living room area",
-            "pageNo": 11
+            "pageNo": 11,
+            "pageSummary": "begin searching around living room area"
         },
         {
-            "summary": "see blood seeping out of a closed closet",
-            "pageNo": 12
+            "pageNo": 12,
+            "pageSummary": "see blood seeping out of a closed closet"
         },
         {
-            "summary": "try to remove Nick's \"mask\", monsters eat you",
             "pageNo": 13,
+            "pageSummary": "try to remove Nick's \"mask\", monsters eat you",
             "utility": -7
         },
         {
-            "summary": "friends finally arrive; you tell them but they don't believe you",
-            "pageNo": 14
+            "pageNo": 14,
+            "pageSummary": "friends finally arrive; you tell them but they don't believe you"
         },
         {
-            "summary": "tell Krupnik to reveal himself, but kids aren't scared of him",
-            "pageNo": 15
+            "pageNo": 15,
+            "pageSummary": "tell Krupnik to reveal himself, but kids aren't scared of him"
         },
         {
-            "summary": "Debbie throws spiders at you; you run down hall and find 2 doors",
-            "pageNo": 16
+            "pageNo": 16,
+            "pageSummary": "Debbie throws spiders at you; you run down hall and find 2 doors"
         },
         {
-            "summary": "walk to Bat Wing Hall with Nick",
-            "pageNo": 17
+            "pageNo": 17,
+            "pageSummary": "walk to Bat Wing Hall with Nick"
         },
         {
-            "summary": "spell works; you run to elevator, but broom gets caught in entry",
-            "pageNo": 18
+            "pageNo": 18,
+            "pageSummary": "spell works; you run to elevator, but broom gets caught in entry"
         },
         {
-            "summary": "enter Hall with Nick and Debbie",
-            "pageNo": 19
+            "pageNo": 19,
+            "pageSummary": "enter Hall with Nick and Debbie"
         },
         {
-            "summary": "jump wave, win game against Nick; make a run for it",
-            "pageNo": 20
+            "pageNo": 20,
+            "pageSummary": "jump wave, win game against Nick; make a run for it"
         },
         {
-            "summary": "step into elevator but it's gone, plummet to your death",
             "pageNo": 21,
+            "pageSummary": "step into elevator but it's gone, plummet to your death",
             "utility": -8
         },
         {
-            "summary": "tell your friends; they think you're making it up",
-            "pageNo": 22
+            "pageNo": 22,
+            "pageSummary": "tell your friends; they think you're making it up"
         },
         {
-            "summary": "you and Marcie decide to keep Martin and Lara as pets",
             "pageNo": 23,
+            "pageSummary": "you and Marcie decide to keep Martin and Lara as pets",
             "utility": 5
         },
         {
-            "summary": "King ties you down, plans to take you to the afterlife as a mummy",
-            "pageNo": 24
+            "pageNo": 24,
+            "pageSummary": "King ties you down, plans to take you to the afterlife as a mummy"
         },
         {
-            "summary": "you turn the ring on the door, which allows it to close",
-            "pageNo": 25
+            "pageNo": 25,
+            "pageSummary": "you turn the ring on the door, which allows it to close"
         },
         {
-            "summary": "start following, but hear monsters talking about you behind door",
-            "pageNo": 26
+            "pageNo": 26,
+            "pageSummary": "start following, but hear monsters talking about you behind door"
         },
         {
-            "summary": "start flying, eventually realize you're not sure where you are",
-            "pageNo": 27
+            "pageNo": 27,
+            "pageSummary": "start flying, eventually realize you're not sure where you are"
         },
         {
-            "summary": "find yourself suddenly paralyzed; Nick mocks you",
-            "pageNo": 28
+            "pageNo": 28,
+            "pageSummary": "find yourself suddenly paralyzed; Nick mocks you"
         },
         {
-            "summary": "find monsters playing your favorite video game, Mud Monsters",
-            "pageNo": 29
+            "pageNo": 29,
+            "pageSummary": "find monsters playing your favorite video game, Mud Monsters"
         },
         {
-            "summary": "the plan works, and you turn back into a human on the spot",
             "pageNo": 30,
+            "pageSummary": "the plan works, and you turn back into a human on the spot",
             "utility": 8
         },
         {
-            "summary": "you see a couple walking their dog nearby",
-            "pageNo": 31
+            "pageNo": 31,
+            "pageSummary": "you see a couple walking their dog nearby"
         },
         {
-            "summary": "get stuck in hole; a slimy monster comes and consumes you",
             "pageNo": 32,
+            "pageSummary": "get stuck in hole; a slimy monster comes and consumes you",
             "utility": -7
         },
         {
-            "summary": "going to play \"The Hunt\", first have to pass a test at cemetery",
-            "pageNo": 33
+            "pageNo": 33,
+            "pageSummary": "going to play \"The Hunt\", first have to pass a test at cemetery"
         },
         {
-            "summary": "you picked the wrong rock, run to the king and cry for help",
-            "pageNo": 34
+            "pageNo": 34,
+            "pageSummary": "you picked the wrong rock, run to the king and cry for help"
         },
         {
-            "summary": "confronted by Swamp Thing; R.L. Stine lets you restart",
-            "pageNo": 35
+            "pageNo": 35,
+            "pageSummary": "confronted by Swamp Thing; R.L. Stine lets you restart"
         },
         {
-            "summary": "when you fly into Martin's house, you're captured by his dad",
-            "pageNo": 36
+            "pageNo": 36,
+            "pageSummary": "when you fly into Martin's house, you're captured by his dad"
         },
         {
-            "summary": "break out of case but find yourself surrounded by men in robes",
-            "pageNo": 37
+            "pageNo": 37,
+            "pageSummary": "break out of case but find yourself surrounded by men in robes"
         },
         {
-            "summary": "Debbie turns on you; run towards a door to escape",
-            "pageNo": 38
+            "pageNo": 38,
+            "pageSummary": "Debbie turns on you; run towards a door to escape"
         },
         {
-            "summary": "grab bandage, go up stairs, find yourself in a corridor",
-            "pageNo": 39
+            "pageNo": 39,
+            "pageSummary": "grab bandage, go up stairs, find yourself in a corridor"
         },
         {
-            "summary": "realize you're still a bat that is a human during the daytime",
-            "pageNo": 40
+            "pageNo": 40,
+            "pageSummary": "realize you're still a bat that is a human during the daytime"
         },
         {
-            "summary": "eat beetles, get arrested, later concoct a hit ice cream flavor",
             "pageNo": 41,
+            "pageSummary": "eat beetles, get arrested, later concoct a hit ice cream flavor",
             "utility": -2
         },
         {
-            "summary": "you escape and spell \"I am a bat\", but she starts swatting at you",
-            "pageNo": 42
+            "pageNo": 42,
+            "pageSummary": "you escape and spell \"I am a bat\", but she starts swatting at you"
         },
         {
-            "summary": "see mummy walking down hall, realize you must get its bandages",
-            "pageNo": 43
+            "pageNo": 43,
+            "pageSummary": "see mummy walking down hall, realize you must get its bandages"
         },
         {
-            "summary": "witch forces you to fly high up in the air on her broom forever",
             "pageNo": 44,
+            "pageSummary": "witch forces you to fly high up in the air on her broom forever",
             "utility": -6
         },
         {
-            "summary": "agree to meet; walking in cemetery, you hear \"HALT!\"",
-            "pageNo": 45
+            "pageNo": 45,
+            "pageSummary": "agree to meet; walking in cemetery, you hear \"HALT!\""
         },
         {
-            "summary": "they follow you to the crypt; need to do tell them to close door",
-            "pageNo": 46
+            "pageNo": 46,
+            "pageSummary": "they follow you to the crypt; need to do tell them to close door"
         },
         {
-            "summary": "discover the other kids are all monsters",
-            "pageNo": 47
+            "pageNo": 47,
+            "pageSummary": "discover the other kids are all monsters"
         },
         {
-            "summary": "learn you'll become a monster if you can't find all four items",
-            "pageNo": 48
+            "pageNo": 48,
+            "pageSummary": "learn you'll become a monster if you can't find all four items"
         },
         {
-            "summary": "magic broom brings you to basement; you find cage with werewolf",
-            "pageNo": 49
+            "pageNo": 49,
+            "pageSummary": "magic broom brings you to basement; you find cage with werewolf"
         },
         {
-            "summary": "she traps you, hoping to use your spelling skills to get on TV",
-            "pageNo": 50
+            "pageNo": 50,
+            "pageSummary": "she traps you, hoping to use your spelling skills to get on TV"
         },
         {
-            "summary": "you're trapped in a force field, and doomed to become a monster",
             "pageNo": 51,
+            "pageSummary": "you're trapped in a force field, and doomed to become a monster",
             "utility": -4
         },
         {
-            "summary": "King calls the evil priests off, invites you to stay with him",
-            "pageNo": 52
+            "pageNo": 52,
+            "pageSummary": "King calls the evil priests off, invites you to stay with him"
         },
         {
-            "summary": "you wake up next morning as your normal self, but crave beetles",
-            "pageNo": 53
+            "pageNo": 53,
+            "pageSummary": "you wake up next morning as your normal self, but crave beetles"
         },
         {
-            "summary": "you accidentally fly into woman; escape and just fly back home",
-            "pageNo": 54
+            "pageNo": 54,
+            "pageSummary": "you accidentally fly into woman; escape and just fly back home"
         },
         {
-            "summary": "you see a crack in the floor",
-            "pageNo": 55
+            "pageNo": 55,
+            "pageSummary": "you see a crack in the floor"
         },
         {
-            "summary": "Lara tries to re-open the door, but becomes a frog",
-            "pageNo": 56
+            "pageNo": 56,
+            "pageSummary": "Lara tries to re-open the door, but becomes a frog"
         },
         {
-            "summary": "Krupnik says he'll help you if you get rid of the \"pesky\" kids",
-            "pageNo": 57
+            "pageNo": 57,
+            "pageSummary": "Krupnik says he'll help you if you get rid of the \"pesky\" kids"
         },
         {
-            "summary": "must choose correct enchanted stone to prevent being mummified",
-            "pageNo": 58
+            "pageNo": 58,
+            "pageSummary": "must choose correct enchanted stone to prevent being mummified"
         },
         {
-            "summary": "return to cemetery, see your tombstone.. you've died",
             "pageNo": 59,
+            "pageSummary": "return to cemetery, see your tombstone.. you've died",
             "utility": -6
         },
         {
-            "summary": "you're taken to the zoo, where you will be kept forever",
             "pageNo": 60,
+            "pageSummary": "you're taken to the zoo, where you will be kept forever",
             "utility": -5
         },
         {
-            "summary": "you're stuck in a force field, but eventually manage to roll out",
-            "pageNo": 61
+            "pageNo": 61,
+            "pageSummary": "you're stuck in a force field, but eventually manage to roll out"
         },
         {
-            "summary": "you're flying through Marcie's house, trying to get away",
-            "pageNo": 62
+            "pageNo": 62,
+            "pageSummary": "you're flying through Marcie's house, trying to get away"
         },
         {
-            "summary": "bony hands reach up from underground and pull you all under",
             "pageNo": 63,
+            "pageSummary": "bony hands reach up from underground and pull you all under",
             "utility": -8
         },
         {
-            "summary": "an hour has passed; no time -> turned into a monster",
             "pageNo": 64,
+            "pageSummary": "an hour has passed; no time -> turned into a monster",
             "utility": -4
         },
         {
-            "summary": "learn house turns visitors to stone, and realize it's happening",
             "pageNo": 65,
+            "pageSummary": "learn house turns visitors to stone, and realize it's happening",
             "utility": -6
         },
         {
-            "summary": "must decide to join either Red or Blue team",
-            "pageNo": 66
+            "pageNo": 66,
+            "pageSummary": "must decide to join either Red or Blue team"
         },
         {
-            "summary": "detach bone from hand, get called over by Debbie's whispers",
-            "pageNo": 67
+            "pageNo": 67,
+            "pageSummary": "detach bone from hand, get called over by Debbie's whispers"
         },
         {
-            "summary": "find rope ladder, start climbing up it",
-            "pageNo": 68
+            "pageNo": 68,
+            "pageSummary": "find rope ladder, start climbing up it"
         },
         {
-            "summary": "see the engraving: \"who turns the stone will grow bat bones\"",
-            "pageNo": 69
+            "pageNo": 69,
+            "pageSummary": "see the engraving: \"who turns the stone will grow bat bones\""
         },
         {
-            "summary": "you manage to locate the crypt and fly into it; door slams shut",
-            "pageNo": 70
+            "pageNo": 70,
+            "pageSummary": "you manage to locate the crypt and fly into it; door slams shut"
         },
         {
-            "summary": "fail escape attempt, realize that only hope is to play the game",
-            "pageNo": 71
+            "pageNo": 71,
+            "pageSummary": "fail escape attempt, realize that only hope is to play the game"
         },
         {
-            "summary": "ducking under wave fails, you lose, Nick turns you into a monster",
             "pageNo": 72,
+            "pageSummary": "ducking under wave fails, you lose, Nick turns you into a monster",
             "utility": -4
         },
         {
-            "summary": "at the science store, you see beetles and feel bat instincts",
-            "pageNo": 73
+            "pageNo": 73,
+            "pageSummary": "at the science store, you see beetles and feel bat instincts"
         },
         {
-            "summary": "realize you must return to Krupnik Crypt at night (as a bat)",
-            "pageNo": 74
+            "pageNo": 74,
+            "pageSummary": "realize you must return to Krupnik Crypt at night (as a bat)"
         },
         {
-            "summary": "introduced to other club members",
-            "pageNo": 75
+            "pageNo": 75,
+            "pageSummary": "introduced to other club members"
         },
         {
-            "summary": "Lara freaks out so you fly home, get invited to mall by friends",
-            "pageNo": 76
+            "pageNo": 76,
+            "pageSummary": "Lara freaks out so you fly home, get invited to mall by friends"
         },
         {
-            "summary": "monster starts giving you a tour of the library",
-            "pageNo": 77
+            "pageNo": 77,
+            "pageSummary": "monster starts giving you a tour of the library"
         },
         {
-            "summary": "time is up (you're running on monster time), you become a monster",
             "pageNo": 78,
+            "pageSummary": "time is up (you're running on monster time), you become a monster",
             "utility": -4
         },
         {
-            "summary": "ask teammates if creepy items are legit, they say yes",
-            "pageNo": 79
+            "pageNo": 79,
+            "pageSummary": "ask teammates if creepy items are legit, they say yes"
         },
         {
-            "summary": "hide in case for a bit then pop out; you're back in Bat Wing Hall",
-            "pageNo": 80
+            "pageNo": 80,
+            "pageSummary": "hide in case for a bit then pop out; you're back in Bat Wing Hall"
         },
         {
-            "summary": "you go to Bat Wing Hall and must decide how to get kids to leave",
-            "pageNo": 81
+            "pageNo": 81,
+            "pageSummary": "you go to Bat Wing Hall and must decide how to get kids to leave"
         },
         {
-            "summary": "you transform and they realize you're telling the truth",
-            "pageNo": 82
+            "pageNo": 82,
+            "pageSummary": "you transform and they realize you're telling the truth"
         },
         {
-            "summary": "find human hand in closet",
-            "pageNo": 83
+            "pageNo": 83,
+            "pageSummary": "find human hand in closet"
         },
         {
-            "summary": "red stone teleports you back to Bat Wing Hall",
-            "pageNo": 84
+            "pageNo": 84,
+            "pageSummary": "red stone teleports you back to Bat Wing Hall"
         },
         {
-            "summary": "you trigger an alarm; the police come to arrest you",
             "pageNo": 85,
+            "pageSummary": "you trigger an alarm; the police come to arrest you",
             "utility": -2
         },
         {
-            "summary": "encounter hungry-looking Nick and Connor, look to Debbie for help",
-            "pageNo": 86
+            "pageNo": 86,
+            "pageSummary": "encounter hungry-looking Nick and Connor, look to Debbie for help"
         },
         {
-            "summary": "hear footsteps, so you run into a cave marked \"monster library\"",
-            "pageNo": 87
+            "pageNo": 87,
+            "pageSummary": "hear footsteps, so you run into a cave marked \"monster library\""
         },
         {
-            "summary": "see list of items for scavenger hunt",
-            "pageNo": 88
+            "pageNo": 88,
+            "pageSummary": "see list of items for scavenger hunt"
         },
         {
-            "summary": "King lets you go but later changes his mind and gives chase",
-            "pageNo": 89
+            "pageNo": 89,
+            "pageSummary": "King lets you go but later changes his mind and gives chase"
         },
         {
-            "summary": "realize you freed them from a curse",
             "pageNo": 90,
+            "pageSummary": "realize you freed them from a curse",
             "utility": 9
         },
         {
-            "summary": "you go home, but you're super bored, so you call Nick anyway",
-            "pageNo": 91
+            "pageNo": 91,
+            "pageSummary": "you go home, but you're super bored, so you call Nick anyway"
         },
         {
-            "summary": "you fly around the night sky, develop an appreciation for sonar",
-            "pageNo": 92
+            "pageNo": 92,
+            "pageSummary": "you fly around the night sky, develop an appreciation for sonar"
         },
         {
-            "summary": "head home, wake up in the middle of the night",
-            "pageNo": 93
+            "pageNo": 93,
+            "pageSummary": "head home, wake up in the middle of the night"
         },
         {
-            "summary": "find mummy sleeping beside its case at end of hall",
-            "pageNo": 94
+            "pageNo": 94,
+            "pageSummary": "find mummy sleeping beside its case at end of hall"
         },
         {
-            "summary": "witch has you recite spells, you notice her fingers are crossed",
-            "pageNo": 95
+            "pageNo": 95,
+            "pageSummary": "witch has you recite spells, you notice her fingers are crossed"
         },
         {
-            "summary": "start approaching Hall, Nick shouts \"get down!\" at you",
-            "pageNo": 96
+            "pageNo": 96,
+            "pageSummary": "start approaching Hall, Nick shouts \"get down!\" at you"
         },
         {
-            "summary": "grab some bandages, which might be one of items you need",
-            "pageNo": 97
+            "pageNo": 97,
+            "pageSummary": "grab some bandages, which might be one of items you need"
         },
         {
-            "summary": "your friends realize they need to close door but it's too heavy",
-            "pageNo": 98
+            "pageNo": 98,
+            "pageSummary": "your friends realize they need to close door but it's too heavy"
         },
         {
-            "summary": "hide successfully, but encounter huge, threatening snake",
-            "pageNo": 99
+            "pageNo": 99,
+            "pageSummary": "hide successfully, but encounter huge, threatening snake"
         },
         {
-            "summary": "Nick asks if you want to come to Horror Club tonight",
-            "pageNo": 100
+            "pageNo": 100,
+            "pageSummary": "Nick asks if you want to come to Horror Club tonight"
         },
         {
-            "summary": "werewolf is fooled, but you're out of time and become a werewolf",
             "pageNo": 101,
+            "pageSummary": "werewolf is fooled, but you're out of time and become a werewolf",
             "utility": -5
         },
         {
-            "summary": "you recall the warning on Krupnik Crypt",
-            "pageNo": 102
+            "pageNo": 102,
+            "pageSummary": "you recall the warning on Krupnik Crypt"
         },
         {
-            "summary": "Krupnik enjoys attention so he joins club and makes you human",
             "pageNo": 103,
+            "pageSummary": "Krupnik enjoys attention so he joins club and makes you human",
             "utility": 8
         },
         {
-            "summary": "Marcie slams you into a freezer and you freeze to death",
             "pageNo": 104,
+            "pageSummary": "Marcie slams you into a freezer and you freeze to death",
             "utility": -9
         },
         {
-            "summary": "find others in room as humans (not monsters)",
-            "pageNo": 105
+            "pageNo": 105,
+            "pageSummary": "find others in room as humans (not monsters)"
         },
         {
-            "summary": "you go to cemetery and find a building labeled \"Krupnik Crypt\"",
-            "pageNo": 106
+            "pageNo": 106,
+            "pageSummary": "you go to cemetery and find a building labeled \"Krupnik Crypt\""
         },
         {
-            "summary": "woman identifies herself as a witch, asks you to help her escape",
-            "pageNo": 107
+            "pageNo": 107,
+            "pageSummary": "woman identifies herself as a witch, asks you to help her escape"
         },
         {
-            "summary": "in the theater, you suddenly turn into a bat and hide on ceiling",
-            "pageNo": 108
+            "pageNo": 108,
+            "pageSummary": "in the theater, you suddenly turn into a bat and hide on ceiling"
         },
         {
-            "summary": "you run to the mansion and wait for over an hour for friends",
-            "pageNo": 109
+            "pageNo": 109,
+            "pageSummary": "you run to the mansion and wait for over an hour for friends"
         },
         {
-            "summary": "rescued by snake charmer",
-            "pageNo": 110
+            "pageNo": 110,
+            "pageSummary": "rescued by snake charmer"
         },
         {
-            "summary": "hear the monsters whispering behind you; start sprinting up stairs",
-            "pageNo": 111
+            "pageNo": 111,
+            "pageSummary": "hear the monsters whispering behind you; start sprinting up stairs"
         },
         {
-            "summary": "Martin closes door, you turn back, but he becomes a bat",
-            "pageNo": 112
+            "pageNo": 112,
+            "pageSummary": "Martin closes door, you turn back, but he becomes a bat"
         },
         {
-            "summary": "find yourself face to face with the ghost of Professor Krupnik",
-            "pageNo": 113
+            "pageNo": 113,
+            "pageSummary": "find yourself face to face with the ghost of Professor Krupnik"
         },
         {
-            "summary": "become skeptical that the monsters are real; might be costumes",
-            "pageNo": 114
+            "pageNo": 114,
+            "pageSummary": "become skeptical that the monsters are real; might be costumes"
         },
         {
-            "summary": "there's no elevator so begin falling; you grab onto a railing",
-            "pageNo": 115
+            "pageNo": 115,
+            "pageSummary": "there's no elevator so begin falling; you grab onto a railing"
         },
         {
-            "summary": "successfully escape and return home to play the game with brother",
             "pageNo": 116,
+            "pageSummary": "successfully escape and return home to play the game with brother",
             "utility": 8
         },
         {
-            "summary": "get pulled into case, try to bust your way back out",
-            "pageNo": 117
+            "pageNo": 117,
+            "pageSummary": "get pulled into case, try to bust your way back out"
         },
         {
-            "summary": "you fly outside Lara's window, call to her",
-            "pageNo": 118
+            "pageNo": 118,
+            "pageSummary": "you fly outside Lara's window, call to her"
         },
         {
-            "summary": "the footsteps are a huge two-headed monster; it grabs you",
-            "pageNo": 119
+            "pageNo": 119,
+            "pageSummary": "the footsteps are a huge two-headed monster; it grabs you"
         },
         {
-            "summary": "you are mummified alive",
             "pageNo": 120,
+            "pageSummary": "you are mummified alive",
             "utility": -10
         },
         {
-            "summary": "challenge Connor to contest in exchange for freedom",
-            "pageNo": 121
+            "pageNo": 121,
+            "pageSummary": "challenge Connor to contest in exchange for freedom"
         },
         {
-            "summary": "werewolf seems to obey commands",
-            "pageNo": 122
+            "pageNo": 122,
+            "pageSummary": "werewolf seems to obey commands"
         },
         {
-            "summary": "you build \"help\", she realizes you can communicate",
-            "pageNo": 123
+            "pageNo": 123,
+            "pageSummary": "you build \"help\", she realizes you can communicate"
         },
         {
-            "summary": "you look in the mirror and discover you've turned into a bat",
-            "pageNo": 124
+            "pageNo": 124,
+            "pageSummary": "you look in the mirror and discover you've turned into a bat"
         },
         {
-            "summary": "must play the flute everyday for three years to be safe from snake",
             "pageNo": 125,
+            "pageSummary": "must play the flute everyday for three years to be safe from snake",
             "utility": -3
         },
         {
-            "summary": "you fall into a closet; realize you're at home, starting over",
-            "pageNo": 126
+            "pageNo": 126,
+            "pageSummary": "you fall into a closet; realize you're at home, starting over"
         },
         {
-            "summary": "enter cage and realize that werewolf is scared of broom",
-            "pageNo": 127
+            "pageNo": 127,
+            "pageSummary": "enter cage and realize that werewolf is scared of broom"
         },
         {
-            "summary": "learn that you'll be playing scary games tonight",
-            "pageNo": 128
+            "pageNo": 128,
+            "pageSummary": "learn that you'll be playing scary games tonight"
         },
         {
-            "summary": "monsters arrive; you must pluck werewolf hairs",
-            "pageNo": 129
+            "pageNo": 129,
+            "pageSummary": "monsters arrive; you must pluck werewolf hairs"
         },
         {
-            "summary": "convince group to meet in the cemetery instead, they agree",
-            "pageNo": 130
+            "pageNo": 130,
+            "pageSummary": "convince group to meet in the cemetery instead, they agree"
         },
         {
-            "summary": "climb into attic, find a woman in a box who's been waiting for you",
-            "pageNo": 131
+            "pageNo": 131,
+            "pageSummary": "climb into attic, find a woman in a box who's been waiting for you"
         },
         {
-            "summary": "her brother frees you, but knocks over a drawer that flattens you",
             "pageNo": 132,
+            "pageSummary": "her brother frees you, but knocks over a drawer that flattens you",
             "utility": -7
         },
         {
-            "summary": "you meet your friends at the mall",
-            "pageNo": 133
+            "pageNo": 133,
+            "pageSummary": "you meet your friends at the mall"
         },
         {
-            "summary": "the two headed monster forces you to read thousands of books to it",
             "pageNo": 134,
+            "pageSummary": "the two headed monster forces you to read thousands of books to it",
             "utility": -5
         },
         {
-            "summary": "you eventually land in a swamp, reach a fork in path",
-            "pageNo": 135
+            "pageNo": 135,
+            "pageSummary": "you eventually land in a swamp, reach a fork in path"
         },
         {
-            "summary": "ghost gets angry, turns you and all your friends into bats",
             "pageNo": 136,
+            "pageSummary": "ghost gets angry, turns you and all your friends into bats",
             "utility": -4
         },
         {
-            "summary": "get to crypt, realize you're too small to open it",
-            "pageNo": 137
+            "pageNo": 137,
+            "pageSummary": "get to crypt, realize you're too small to open it"
         }
     ],
     "links": [
