@@ -19,6 +19,11 @@
         fill: rgba(255, 255, 255, 0.7);
         pointer-events: none;
     }
+
+    circle {
+        stroke: black;
+        stroke-width: .6;
+    }
 </style>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -43,20 +48,16 @@
 
         simulation
             .force('charge_force', d3.forceManyBody().strength(-25))
-            .force('center_force', d3.forceCenter(500, 500));
-        // .force('collision_force', d3.forceCollide(14));
-
-        const linkForce = d3.forceLink(links)
-            .id(d => d.pageNo)
-            .strength(1);
-
-        simulation.force('links', linkForce);
+            .force('center_force', d3.forceCenter(500, 500))
+            .force('links_force', d3.forceLink(links).id(d => d.pageNo).strength(1));
+            // .force('collision_force', d3.forceCollide(14));
 
         const link = svg.append('g')
             .classed('links', true)
             .selectAll('line')
             .data(links)
-            .enter().append('line')
+            .enter()
+            .append('line')
             .attr('stroke-width', 2);
 
         const node = svg.append('g')
@@ -86,6 +87,35 @@
             .attr('text-anchor', 'middle')
             .text(page => page.pageNo);
 
+        const edgePaths = svg.selectAll('.edge-path')
+            .data(links)
+            .enter()
+            .append('path')
+            .classed('edge-path', true)
+            .attr('fill-opacity', 0)
+            .attr('stroke-opacity', 0)
+            .attr('id', d => 'edgepath_' + d.source.pageNo + '-' + d.target.pageNo)
+            .style('pointer-events', 'none');
+
+        const edgeLabels = svg.selectAll('.edge-label')
+            .data(links)
+            .enter()
+            .append('text')
+            .style('pointer-events', 'none')
+            .classed('edge-label', true)
+            .attr('dx', 80)
+            .attr('dy', 0)
+            .attr('font-size', 10)
+            .attr('fill', '#aaa');
+
+        edgeLabels.append('textPath')
+            // todo: this xlink:href property is significant!  this value is probably supposed to correspond to the id of a path
+            .attr('xlink:href', (d, i) => '#edgepath_' + d.source.pageNo + '-' + d.target.pageNo)
+            .style('pointer-events', 'none')
+            .style('text-anchor', 'middle')
+            .attr('startOffset', '50%')
+            .text((d, i) => 'label ' + i);
+
 
         simulation.on('tick', () => {
             circles.attr('cx', d => d.x)
@@ -99,6 +129,23 @@
                 .attr('y1', d => d.source.y)
                 .attr('x2', d => d.target.x)
                 .attr('y2', d => d.target.y);
+
+            edgePaths.attr('d', d => {
+                return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
+            });
+
+            edgeLabels
+                .attr('transform', function(d, i) {
+                    if(d.target.x < d.source.x){
+                        const bbox = this.getBBox();
+                        const rx = bbox.x + bbox.width / 2;
+                        const ry = bbox.y + bbox.height / 2;
+                        return 'rotate(180 ' + rx + ' ' + ry + ')';
+                    }
+                    else {
+                        return 'rotate(0)';
+                    }
+                });
         });
 
         const dragHandler = d3.drag()
