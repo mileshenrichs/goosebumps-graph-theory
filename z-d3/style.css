@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .node circle {
     stroke-width: 0.15;
 }
 
 .link {
-    stroke: #999;
-    stroke-opacity: .6;
+    stroke: #c8c8c8;
     stroke-width: 1px;
 }
 
@@ -19,7 +24,7 @@ text, p {
 
 .node-text-container {
     width: 8px;
-    height: 8px;
+    height: 10px;
 }
 
 .node-text-container p {

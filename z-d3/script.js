@@ -1,7 +1,7 @@
 const svg = d3.select('body')
     .append('svg')
     .attr('width', '100%')
-    .style('height', '100vh')
+    .style('height', 'calc(100vh - 3px)')
     .call(d3.zoom()
         .wheelDelta(wheelDelta)
         .on('zoom', handleZoom))
@@ -11,7 +11,7 @@ svg.append('defs').append('marker')
     .attrs({
         'id':'arrowhead',
         'viewBox':'-0 -5 10 10',
-        'refX':13,
+        'refX': 6.3,
         'refY':0,
         'orient':'auto',
         'markerWidth':13,
@@ -19,14 +19,14 @@ svg.append('defs').append('marker')
         'xoverflow':'visible'
     })
     .append('svg:path')
-    .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+    .attr('d', 'M 0,-1 L 2 ,0 L 0,1')
     .attr('fill', '#999')
     .style('stroke','none');
 
 const simulation = d3.forceSimulation()
-    .force('link', d3.forceLink().id(d => d.pageNo).distance(50).strength(1))
+    .force('link', d3.forceLink().id(d => d.pageNo).distance(20).strength(1))
     .force('charge', d3.forceManyBody())
-    .force('center', d3.forceCenter(900, 500));
+    .force('center', d3.forceCenter(683, 375));
 
 d3.json('data.json', (error, graph) => {
     if(error) throw error;
@@ -67,7 +67,7 @@ function initGraph(links, nodes) {
         .classed('edgelabel', true)
         .attr('id', (d, i) => 'edgelabel' + i)
         .attr('font-size', 1.4)
-        .attr('fill', '#aaaaaa')
+        .attr('fill', '#424242')
         .text(d => d.decisionDesc);
 
     const node = svg.selectAll('.node')
@@ -108,8 +108,8 @@ function initGraph(links, nodes) {
     node.append('foreignObject')
         .classed('nodelabel', true)
         .attr('width', 8)
-        .attr('height', 9)
-        .attr('transform', 'translate(-4, -5.2)')
+        .attr('height', 12)
+        .attr('transform', 'translate(-4, -4)')
         .append('xhtml:div')
         .classed('node-text-container', true)
         .append('xhtml:p')
@@ -148,7 +148,7 @@ function initGraph(links, nodes) {
                 .attr('transform', d => 'translate(' + d.x + ', ' + d.y + ')');
 
             edgePaths.attr('d', d => {
-                const LABEL_PATH_OFFSET_DISTANCE = 1.5;
+                const LABEL_PATH_OFFSET_DISTANCE = 2;
                 return 'M ' + d.source.x + ' ' + (d.source.y + LABEL_PATH_OFFSET_DISTANCE)
                     + ' L ' + d.target.x + ' ' + (d.target.y + LABEL_PATH_OFFSET_DISTANCE);
             });

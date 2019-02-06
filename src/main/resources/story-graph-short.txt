@@ -126,7 +126,7 @@ PAGE | 105 | false | -- | find others in room as humans (not monsters)
 EDGE | 105 | 90 | false | --
 PAGE | 90 | true | 9 | realize you freed them from a curse
 EDGE | 127 | 101 | true | pretend to be a werewolf
-PAGE | 101 | true | -5 | werewolf is fooled, but you're out of time and become a werewolf
+PAGE | 101 | true | -5 | you run out of time and become a werewolf
 EDGE | 107 | 44 | true | choose to leave the witch in the box and steal her broom
 PAGE | 44 | true | -6 | witch forces you to fly high up in the air on her broom forever
 EDGE | 89 | 99 | true | run towards some tall grass to hide
@@ -143,7 +143,7 @@ PAGE | 126 | false | -- | you fall into a closet; realize you're at home, starti
 EDGE | 126 | 1 | false | --
 EDGE | 16 | 43 | true | go through green door
 EDGE | 12 | 78 | true | stay away from closet door, head back towards dining room instead
-PAGE | 78 | true | -4 | time is up (you're running on monster time), you become a monster
+PAGE | 78 | true | -4 | time is up ("monster time"), so you become a monster
 EDGE | 48 | 111 | true | decide to explore upstairs
 PAGE | 111 | false | -- | hear the monsters whispering behind you; start sprinting up stairs
 EDGE | 111 | 28 | false | --
@@ -277,7 +277,7 @@ EDGE | 77 | 35 | true | make a run for the crypt door you see
 PAGE | 35 | false | -- | confronted by Swamp Thing; R.L. Stine lets you restart
 EDGE | 35 | 1 | false | --
 EDGE | 77 | 134 | true | stay with the monster and hope it eventually helps you get back
-PAGE | 134 | true | -5 | the two headed monster forces you to read thousands of books to it
+PAGE | 134 | true | -3 | the monster forces you to read thousands of books to it
 EDGE | 135 | 59 | true | follow the sign labeled "to the crypt"
 PAGE | 59 | true | -6 | return to cemetery, see your tombstone.. you've died
 EDGE | 102 | 53 | true | go back to sleep and wait until next morning

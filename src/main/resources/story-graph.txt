@@ -277,7 +277,7 @@ EDGE | 77 | 35 | true | make a run for the crypt door
 PAGE | 35 | false | -- | you run through the door and find yourself in deep murky water with the Swamp Thing; R.L. Stine offers you a chance to start fresh on page 1
 EDGE | 35 | 1 | false | --
 EDGE | 77 | 134 | true | stay with the monster and hope it eventually helps you get back to where you came from
-PAGE | 134 | true | -5 | the two headed monster forces you to read thousands of books to it; if you don't, it'll eat you
+PAGE | 134 | true | -3 | the two headed monster forces you to read thousands of books to it; if you don't, it'll eat you
 EDGE | 135 | 59 | true | follow the sign labeled "to the crypt"
 PAGE | 59 | true | -6 | you find a cloaked creature rowing a boat through the river; he gives you a ride back to the cemetery, where you find a grave stone with your name.. you've died
 EDGE | 102 | 53 | true | go back to sleep and wait until next morning
