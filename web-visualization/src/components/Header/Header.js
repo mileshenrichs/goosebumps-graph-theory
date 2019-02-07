@@ -10,7 +10,7 @@ const Header = ({ vizOptions, selectedVizOption, vizOptionChangeHandler, vizButt
                     <img src={bookCoverSrc} alt="Goosebumps Book Cover" />
                 </a>
                 <div className="Header__left__text">
-                    <h1>Visualizing paths through <i>Goosebumps: Trapped in Bat Wing Hall</i></h1>
+                    <h1>Exploring paths through <i>Goosebumps: Trapped in Bat Wing Hall</i></h1>
                     <h2>Created by <a href="https://github.com/mileshenrichs">Miles Henrichs</a></h2>
                 </div>
             </div>

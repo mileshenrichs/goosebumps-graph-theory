@@ -155,3 +155,31 @@ button.change-btn:hover {
     width: 2px;
     cursor: default;
 }
+
+/* INFO PANEL STYLES */
+
+.InfoPanel {
+    position: absolute;
+    width: 330px;
+    height: 110px;
+    bottom: 30px;
+    right: 30px;
+    padding: 18px 24px;
+    background: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #a8a8a8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.InfoPanel span {
+    display: block;
+}
+
+.InfoPanel__context {
+    color: #989898;
+    margin-bottom: 6px;
+}
+
+.InfoPanel__blank {
+    color: #737373;
+}

@@ -58,7 +58,8 @@ class Graph extends Component {
             .enter()
             .append('line')
             .classed('link', true)
-            .attr('marker-end', 'url(#arrowhead)');
+            .attr('marker-end', 'url(#arrowhead)')
+            .on('mouseover', d => this.props.elementHoveredHandler(d));
 
         const edgePaths = this.state.svg.selectAll('.edgepath')
             .data(links)
@@ -96,7 +97,8 @@ class Graph extends Component {
                 .on('start', d => this.onNodeDragStart(d))
                 .on('drag', d => Graph.onNodeDrag(d))
                 .on('end', d => this.onNodeDragEnd(d))
-            );
+            )
+            .on('mouseover', d => this.props.elementHoveredHandler(d));
 
         node.append('circle')
             .attr('r', 6)
@@ -138,6 +140,7 @@ class Graph extends Component {
             .attr('width', 8)
             .attr('height', 8)
             .attr('transform', 'translate(-1, 3.3)')
+            .style('pointer-events', 'none')
             .append('xhtml:span')
             .style('display', 'block')
             .style('color', page => {
