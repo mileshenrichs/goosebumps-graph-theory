@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import Graph from './components/Graph/Graph';
 
 class App extends Component {
 
@@ -21,12 +22,16 @@ class App extends Component {
 
     render() {
         return (
-            <Header
-                vizOptions={this.state.vizOptions}
-                selectedVizOption={this.state.selectedVizOption}
-                vizOptionChangeHandler={(option) => this.setState({selectedVizOption: option})}
-                vizButtonClickHandler={() => this.onVizButtonClick()}
-            />
+            <div className="App">
+                <Header
+                    vizOptions={this.state.vizOptions}
+                    selectedVizOption={this.state.selectedVizOption}
+                    vizOptionChangeHandler={(option) => this.setState({selectedVizOption: option})}
+                    vizButtonClickHandler={() => this.onVizButtonClick()}
+                />
+
+                <Graph />
+            </div>
         );
     }
 }

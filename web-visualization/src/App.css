@@ -14,7 +14,7 @@ body {
 .Header {
     width: 100%;
     height: 116px;
-    padding-right: 8%;
+    padding: 0 4%;
     background: #ffffff;
     border-bottom: 1px solid #828282;
     box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
@@ -30,8 +30,8 @@ body {
 }
 
 .Header__left img {
-    height: 100%;
-    margin-right: 26px;
+    height: 90%;
+    margin: 5px 24px 0 0;
 }
 
 .Header__left__text h1 {
@@ -70,7 +70,7 @@ body {
     z-index: 10;
 }
 
-button.see-it {
+button.change-btn {
     width: 90px;
     height: 38px;
     background: #367fd8;
@@ -85,11 +85,73 @@ button.see-it {
     transition: background .25s ease-in-out;
 }
 
-button.see-it span {
+button.change-btn span {
     position: relative;
     left: 2px;
 }
 
-button.see-it:hover {
+button.change-btn:hover {
     background: #1964bf;
+}
+
+@media screen and (max-width: 1366px) {
+    .Header {
+        padding: 0 2%;
+    }
+
+    .Header__left__text h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Header__left__text {
+        width: 350px;
+    }
+
+    .Header__left__text h1 {
+        margin-top: 18px;
+    }
+}
+
+/* D3 FORCE-DIRECTED GRAPH STYLES */
+
+.Graph .node circle {
+    stroke-width: 0.15;
+}
+
+.Graph .link {
+    stroke: #c8c8c8;
+    stroke-width: 1px;
+}
+
+.Graph text, .Graph p {
+    cursor: default;
+    font-size: 4px;
+    font-family: "Roboto", sans-serif;
+    pointer-events: none;
+}
+
+.Graph .node-text-container {
+    width: 8px;
+    height: 10px;
+}
+
+.Graph .node-text-container p {
+    font-size: 1.2px;
+    text-align: center;
+    color: #181818;
+}
+
+.Graph .node text {
+    fill: rgba(255, 255, 255, 0.7);
+}
+
+.Graph .utilitylabel span {
+    font-size: 1.9px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 2px;
+    cursor: default;
 }
