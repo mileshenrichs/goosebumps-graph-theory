@@ -76,7 +76,8 @@
             "fx": 435.34665,
             "fy": -15.220276,
             "pageNo": 13,
-            "pageSummary": "try to remove Nick's \"mask\", monsters eat you"
+            "pageSummary": "try to remove Nick's \"mask\", monsters eat you",
+            "utility": -7
         },
         {
             "fx": 1065.9872,
@@ -124,7 +125,8 @@
             "fx": 1075.9983,
             "fy": -93.48767,
             "pageNo": 21,
-            "pageSummary": "step into elevator but it's gone, plummet to your death"
+            "pageSummary": "step into elevator but it's gone, plummet to your death",
+            "utility": -8
         },
         {
             "fx": 968.9823,
@@ -136,7 +138,8 @@
             "fx": 1214.5764,
             "fy": 125.43622,
             "pageNo": 23,
-            "pageSummary": "you and Marcie decide to keep Martin and Lara as pets"
+            "pageSummary": "you and Marcie decide to keep Martin and Lara as pets",
+            "utility": 5
         },
         {
             "fx": 977.896,
@@ -178,7 +181,8 @@
             "fx": 1211.2892,
             "fy": 170.28809,
             "pageNo": 30,
-            "pageSummary": "the plan works, and you turn back into a human on the spot"
+            "pageSummary": "the plan works, and you turn back into a human on the spot",
+            "utility": 8
         },
         {
             "fx": 591.61646,
@@ -190,7 +194,8 @@
             "fx": 446.67844,
             "fy": 14.770782,
             "pageNo": 32,
-            "pageSummary": "get stuck in hole; a slimy monster comes and consumes you"
+            "pageSummary": "get stuck in hole; a slimy monster comes and consumes you",
+            "utility": -7
         },
         {
             "fx": 323.0738,
@@ -244,7 +249,8 @@
             "fx": 952.74365,
             "fy": 65.32471,
             "pageNo": 41,
-            "pageSummary": "eat beetles, get arrested, later concoct a hit ice cream flavor"
+            "pageSummary": "eat beetles, get arrested, later concoct a hit ice cream flavor",
+            "utility": -2
         },
         {
             "fx": 776.0572,
@@ -262,7 +268,8 @@
             "fx": 1010.4652,
             "fy": -105.98422,
             "pageNo": 44,
-            "pageSummary": "witch forces you to fly high up in the air on her broom forever"
+            "pageSummary": "witch forces you to fly high up in the air on her broom forever",
+            "utility": -6
         },
         {
             "fx": 977.09625,
@@ -304,7 +311,8 @@
             "fx": 549.58606,
             "fy": -12.445038,
             "pageNo": 51,
-            "pageSummary": "you're trapped in a force field, and doomed to become a monster"
+            "pageSummary": "you're trapped in a force field, and doomed to become a monster",
+            "utility": -4
         },
         {
             "fx": 935.2134,
@@ -352,13 +360,15 @@
             "fx": 756.0643,
             "fy": 113.48169,
             "pageNo": 59,
-            "pageSummary": "return to cemetery, see your tombstone.. you've died"
+            "pageSummary": "return to cemetery, see your tombstone.. you've died",
+            "utility": -6
         },
         {
             "fx": 772.53986,
             "fy": 91.6221,
             "pageNo": 60,
-            "pageSummary": "you're taken to the zoo, where you will be kept forever"
+            "pageSummary": "you're taken to the zoo, where you will be kept forever",
+            "utility": -5
         },
         {
             "fx": 542.1269,
@@ -376,19 +386,22 @@
             "fx": 1173.8701,
             "fy": 94.06244,
             "pageNo": 63,
-            "pageSummary": "bony hands reach up from underground and pull you all under"
+            "pageSummary": "bony hands reach up from underground and pull you all under",
+            "utility": -8
         },
         {
             "fx": 936.55273,
             "fy": -113.279175,
             "pageNo": 64,
-            "pageSummary": "an hour has passed; no time -> turned into a monster"
+            "pageSummary": "an hour has passed; no time -> turned into a monster",
+            "utility": -4
         },
         {
             "fx": 777.7085,
             "fy": -95.95889,
             "pageNo": 65,
-            "pageSummary": "learn house turns visitors to stone, and realize it's happening"
+            "pageSummary": "learn house turns visitors to stone, and realize it's happening",
+            "utility": -6
         },
         {
             "fx": 281.82654,
@@ -430,7 +443,8 @@
             "fx": 1006.0656,
             "fy": -42.080414,
             "pageNo": 72,
-            "pageSummary": "ducking under wave fails, you lose, Nick turns you into a monster"
+            "pageSummary": "ducking under wave fails, you lose, Nick turns you into a monster",
+            "utility": -4
         },
         {
             "fx": 925.189,
@@ -466,7 +480,8 @@
             "fx": 598.8303,
             "fy": -59.8125,
             "pageNo": 78,
-            "pageSummary": "time is up (\"monster time\"), so you become a monster"
+            "pageSummary": "time is up (\"monster time\"), so you become a monster",
+            "utility": -4
         },
         {
             "fx": 343.20697,
@@ -508,7 +523,8 @@
             "fx": 198.7832,
             "fy": 25.72171,
             "pageNo": 85,
-            "pageSummary": "you trigger an alarm; the police come to arrest you"
+            "pageSummary": "you trigger an alarm; the police come to arrest you",
+            "utility": -2
         },
         {
             "fx": 656.07025,
@@ -538,7 +554,8 @@
             "fx": 1248.9329,
             "fy": -52.872375,
             "pageNo": 90,
-            "pageSummary": "realize you freed them from a curse"
+            "pageSummary": "realize you freed them from a curse",
+            "utility": 9
         },
         {
             "fx": 117.60547,
@@ -604,7 +621,8 @@
             "fx": 1180.8104,
             "fy": -75.964294,
             "pageNo": 101,
-            "pageSummary": "you run out of time and become a werewolf"
+            "pageSummary": "you run out of time and become a werewolf",
+            "utility": -5
         },
         {
             "fx": 513.5469,
@@ -616,13 +634,15 @@
             "fx": 1211.6768,
             "fy": 59.35608,
             "pageNo": 103,
-            "pageSummary": "Krupnik enjoys attention so he joins club and makes you human"
+            "pageSummary": "Krupnik enjoys attention so he joins club and makes you human",
+            "utility": 8
         },
         {
             "fx": 880.26105,
             "fy": -6.507538,
             "pageNo": 104,
-            "pageSummary": "Marcie slams you into a freezer and you freeze to death"
+            "pageSummary": "Marcie slams you into a freezer and you freeze to death",
+            "utility": -9
         },
         {
             "fx": 1225.8739,
@@ -694,7 +714,8 @@
             "fx": 1028.3855,
             "fy": -20.896301,
             "pageNo": 116,
-            "pageSummary": "successfully escape and return home to play the game with brother"
+            "pageSummary": "successfully escape and return home to play the game with brother",
+            "utility": 8
         },
         {
             "fx": 842.31775,
@@ -718,7 +739,8 @@
             "fx": 1013.4936,
             "fy": -142.59492,
             "pageNo": 120,
-            "pageSummary": "you are mummified alive"
+            "pageSummary": "you are mummified alive",
+            "utility": -10
         },
         {
             "fx": 934.18054,
@@ -748,7 +770,8 @@
             "fx": 1070.1897,
             "fy": -201.5352,
             "pageNo": 125,
-            "pageSummary": "must play the flute everyday for three years to be safe from snake"
+            "pageSummary": "must play the flute everyday for three years to be safe from snake",
+            "utility": -3
         },
         {
             "fx": 732.9523,
@@ -790,7 +813,8 @@
             "fx": 883.81555,
             "fy": 51.958557,
             "pageNo": 132,
-            "pageSummary": "her brother frees you, but knocks over a drawer that flattens you"
+            "pageSummary": "her brother frees you, but knocks over a drawer that flattens you",
+            "utility": -7
         },
         {
             "fx": 867.2188,
@@ -802,7 +826,8 @@
             "fx": 863.8314,
             "fy": 126.838806,
             "pageNo": 134,
-            "pageSummary": "the monster forces you to read thousands of books to it"
+            "pageSummary": "the monster forces you to read thousands of books to it",
+            "utility": -3
         },
         {
             "fx": 713.33154,
@@ -814,7 +839,8 @@
             "fx": 1203.3687,
             "fy": 25.952667,
             "pageNo": 136,
-            "pageSummary": "ghost gets angry, turns you and all your friends into bats"
+            "pageSummary": "ghost gets angry, turns you and all your friends into bats",
+            "utility": -4
         },
         {
             "fx": 702.0963,

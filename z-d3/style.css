@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #fbfbfb;
+}
+
 .node circle {
     stroke-width: 0.15;
 }
@@ -43,4 +47,5 @@ text, p {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     width: 2px;
+    cursor: default;
 }

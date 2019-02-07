@@ -33,6 +33,9 @@ public class D3NodePositionNormalizer {
             JSONObject normalizedNode = new JSONObject();
             normalizedNode.put("pageNo", node.getInt("pageNo"));
             normalizedNode.put("pageSummary", node.getString("pageSummary"));
+            if(node.has("utility")) {
+                normalizedNode.put("utility", node.getInt("utility"));
+            }
 
             normalizedNode.put("fx", node.getFloat("fx") - startPosX);
             normalizedNode.put("fy", node.getFloat("fy") - startPosY);

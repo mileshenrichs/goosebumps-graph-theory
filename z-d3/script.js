@@ -28,12 +28,15 @@ const simulation = d3.forceSimulation()
     .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(683, 375));
 
-d3.json('data.json', (error, graph) => {
+d3.json('positioned-data.json', (error, graph) => {
     if(error) throw error;
     initGraph(graph.links, graph.nodes);
 });
 
 function initGraph(links, nodes) {
+    // translate graph to be in a vertically centered position (based on client screen height)
+    positionGraphNodes(nodes);
+
     const link = svg.selectAll('.link')
         .data(links)
         .enter()
@@ -196,4 +199,15 @@ function handleZoom() {
 
 function wheelDelta() {
     return -d3.event.deltaY * (d3.event.deltaMode ? 120 : 1) / 2000;
+}
+
+function positionGraphNodes(nodes) {
+    const userWindowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    const verticalMidpoint = userWindowHeight / 2;
+    const leftPadding = 20;
+
+    for(let i = 0; i < nodes.length; i++) {
+        nodes[i].fx += leftPadding;
+        nodes[i].fy += verticalMidpoint;
+    }
 }
