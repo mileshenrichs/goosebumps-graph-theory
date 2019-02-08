@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import * as d3 from 'd3';
 import graphData from '../../data/data';
+import recenterIconSrc from '../../assets/recenter-icon.png';
 
 class Graph extends Component {
 
@@ -20,11 +21,12 @@ class Graph extends Component {
         const svg = d3.select('.Graph')
             .append('svg')
             .attr('width', '100%')
-            .style('height', 'calc(100vh - 139px)')
+            .style('height', 'calc(100vh - 120px)')
             .call(d3.zoom()
                 .wheelDelta(() => -d3.event.deltaY * (d3.event.deltaMode ? 120 : 1) / 2000)
                 .on('zoom', () => svg.attr('transform', () => d3.event.transform)))
-            .append('g');
+            .append('g')
+            .attr('id', 'container');
 
         svg.append('defs').append('marker')
             .attr('id', 'arrowhead')
@@ -221,10 +223,19 @@ class Graph extends Component {
         }
     }
 
+    static recenterView() {
+        const viewContainer = document.querySelector('g#container');
+        viewContainer.setAttribute('transform', 'translate(0, 0) scale(1)');
+    }
+
     render() {
         return (
             <div className="Graph" ref={node => this.graphDiv = node}>
                 {/* D3 force-directed graph simulation will appear here */}
+
+                <button className="Graph__recenter-button" title="Re-center View" onClick={() => Graph.recenterView()}>
+                    <img src={recenterIconSrc} alt="center" />
+                </button>
             </div>
         );
     }
