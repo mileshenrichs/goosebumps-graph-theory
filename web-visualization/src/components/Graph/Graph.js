@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import * as d3 from 'd3';
 import graphData from '../../data/data';
-import recenterIconSrc from '../../assets/recenter-icon.png';
 
 class Graph extends Component {
 
@@ -9,7 +8,14 @@ class Graph extends Component {
         super(props);
         this.state = {
             svg: undefined,
-            simulation: undefined
+            simulation: undefined,
+            baseTransform: {
+                translate: {
+                    x: 0,
+                    y: 0
+                },
+                scale: 1
+            }
         };
     }
 
@@ -18,6 +24,8 @@ class Graph extends Component {
     }
 
     initializeD3Simulation() {
+        const bt = Graph.calculateBaseTransform();
+
         const svg = d3.select('.Graph')
             .append('svg')
             .attr('width', '100%')
@@ -223,19 +231,27 @@ class Graph extends Component {
         }
     }
 
-    static recenterView() {
-        const viewContainer = document.querySelector('g#container');
-        viewContainer.setAttribute('transform', 'translate(0, 0) scale(1)');
+    static calculateBaseTransform() {
+        const graphWidth = 1261; // width of fixed-position graph viz (in pixels)
+        const screenWidth = document.body.clientWidth;
+        const widthRatioReciprocal = 1 / (graphWidth / screenWidth);
+        console.log('graph width: ' + graphWidth);
+        console.log('screen width: ' + screenWidth);
+        console.log('widthRatioReciprocal: ' + widthRatioReciprocal);
+
+        return {
+            translate: {
+                x: 0,
+                y: 0
+            },
+            scale: 1
+        };
     }
 
     render() {
         return (
             <div className="Graph" ref={node => this.graphDiv = node}>
                 {/* D3 force-directed graph simulation will appear here */}
-
-                <button className="Graph__recenter-button" title="Re-center View" onClick={() => Graph.recenterView()}>
-                    <img src={recenterIconSrc} alt="center" />
-                </button>
             </div>
         );
     }
