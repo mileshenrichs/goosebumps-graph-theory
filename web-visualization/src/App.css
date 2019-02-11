@@ -187,29 +187,3 @@ button.change-btn:hover {
 .InfoPanel__blank {
     color: #737373;
 }
-
-/* RE-CENTER BUTTON STYLES */
-
-.Graph__recenter-button {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    padding: 9px 11px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
-    transition: box-shadow .15s ease-in-out;
-}
-
-.Graph__recenter-button:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-}
-
-.Graph__recenter-button img {
-    width: 36px;
-    opacity: 0.7;
-    transition: opacity .15s ease-in-out;
-}
-
-.Graph__recenter-button:hover img {
-    opacity: 0.9;
-}

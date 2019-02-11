@@ -8,14 +8,7 @@ class Graph extends Component {
         super(props);
         this.state = {
             svg: undefined,
-            simulation: undefined,
-            baseTransform: {
-                translate: {
-                    x: 0,
-                    y: 0
-                },
-                scale: 1
-            }
+            simulation: undefined
         };
     }
 
@@ -24,17 +17,23 @@ class Graph extends Component {
     }
 
     initializeD3Simulation() {
-        const bt = Graph.calculateBaseTransform();
+        const initScale = Graph.computeOptimalScale();
+
+        const zoom = d3.zoom()
+            .wheelDelta(() => -d3.event.deltaY * (d3.event.deltaMode ? 120 : 1) / 3000)
+            .on('zoom', () => {
+                if(svg) svg.attr('transform', () => d3.event.transform)
+            });
 
         const svg = d3.select('.Graph')
             .append('svg')
             .attr('width', '100%')
             .style('height', 'calc(100vh - 120px)')
-            .call(d3.zoom()
-                .wheelDelta(() => -d3.event.deltaY * (d3.event.deltaMode ? 120 : 1) / 2000)
-                .on('zoom', () => svg.attr('transform', () => d3.event.transform)))
+            .call(zoom)
+            .call(zoom.transform, d3.zoomIdentity.scale(initScale))
             .append('g')
-            .attr('id', 'container');
+            .attr('id', 'container')
+            .attr('transform', 'translate(0,0) scale(' + initScale + ')');
 
         svg.append('defs').append('marker')
             .attr('id', 'arrowhead')
@@ -50,15 +49,15 @@ class Graph extends Component {
             .attr('fill', '#999')
             .style('stroke','none');
 
-        // save svg and simulation objects in state, then load graph data and init SVG drawing
+        // save svg object in state, then init SVG drawing
         this.setState({svg}, () => {
-            this.initSvgDraw();
+            this.initSvgDraw(initScale);
         });
     }
 
-    initSvgDraw() {
+    initSvgDraw(initialScale) {
         const { links, nodes } = graphData;
-        this.positionGraphNodes(nodes);
+        this.positionGraphNodes(nodes, initialScale);
 
         const simulation = d3.forceSimulation()
             .force('link', d3.forceLink().id(d => d.pageNo).distance(20).strength(1));
@@ -202,9 +201,18 @@ class Graph extends Component {
         this.setState({simulation, nodes});
     }
 
-    positionGraphNodes(nodes) {
-        const verticalMidpoint = this.graphDiv.clientHeight / 2;
-        const leftPadding = this.graphDiv.clientWidth * .03;
+    /**
+     * This function is called immediately before the nodes are initially drawn.
+     * It calculates the vertical midpoint of the page as a function of the
+     * browser height and an initial scale (scaled to fit screen), adds some
+     * left padding, then translates the fixed (x, y) position of each node.
+     */
+    positionGraphNodes(nodes, initialScale) {
+        // vertical midpoint is half the browser height,
+        // divided by the initial scale (typically a value between ~0.8 and ~1.6),
+        // with a slight upward translation to account for the info panel at bottom
+        const verticalMidpoint = (this.graphDiv.clientHeight / 2) / initialScale - 40;
+        const leftPadding = this.graphDiv.clientWidth * .02;
 
         for(let i = 0; i < nodes.length; i++) {
             nodes[i].fx += leftPadding;
@@ -231,21 +239,19 @@ class Graph extends Component {
         }
     }
 
-    static calculateBaseTransform() {
+    /**
+     * When the graph first loads, scale it up/down to fit screen size.
+     * Given a known graph width, can find a screen vs graph width ratio.
+     * This ratio represents the scale value needed for graph to take up 100% width of screen.
+     * Multiply this by 96% to allow for some padding, and consider it to be the optimal scale.
+     */
+    static computeOptimalScale() {
         const graphWidth = 1261; // width of fixed-position graph viz (in pixels)
         const screenWidth = document.body.clientWidth;
-        const widthRatioReciprocal = 1 / (graphWidth / screenWidth);
-        console.log('graph width: ' + graphWidth);
-        console.log('screen width: ' + screenWidth);
-        console.log('widthRatioReciprocal: ' + widthRatioReciprocal);
+        const widthRatio = screenWidth / graphWidth;
+        const optimalScale = widthRatio * .96;
 
-        return {
-            translate: {
-                x: 0,
-                y: 0
-            },
-            scale: 1
-        };
+        return optimalScale;
     }
 
     render() {
