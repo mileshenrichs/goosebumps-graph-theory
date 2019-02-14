@@ -8,18 +8,25 @@ class App extends Component {
 
     constructor(props) {
         super(props);
+
+        const vizOptions = [
+            { value: 'default', label: 'Default graph view' },
+            { value: 'optimal-path', label: 'Optimal path (shortest path to best ending)' },
+            { value: 'force-simulation', label: 'Release nodes (force-directed simulation)' }
+        ];
+
         this.state = {
-            vizOptions: [
-                { value: 'default', label: 'Default Graph View'},
-                { value: 'optimal-path', label: 'Optimal path (shortest path to best ending)' }
-            ],
-            selectedVizOption: { value: 'default', label: 'Default Graph View'},
+            vizOptions: vizOptions,
+            selectedVizOption: vizOptions[0],
+            currentActiveViz: vizOptions[0].value,
             activeElementForInfoPanel: undefined
         };
     }
 
     onVizButtonClick() {
-        console.log('viz button clicked');
+        this.setState(state => ({
+            currentActiveViz: state.selectedVizOption.value
+        }));
     }
 
     render() {
@@ -34,6 +41,7 @@ class App extends Component {
 
                 <Graph
                     elementHoveredHandler={(el) => this.setState({activeElementForInfoPanel: el})}
+                    currentViz={this.state.currentActiveViz}
                 />
 
                 <InfoPanel

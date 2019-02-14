@@ -16,6 +16,12 @@ class Graph extends Component {
         this.initializeD3Simulation();
     }
 
+    componentDidUpdate(prevProps) {
+        if(this.props.currentViz !== prevProps.currentViz) {
+            this.updateVisualization();
+        }
+    }
+
     initializeD3Simulation() {
         const initScale = Graph.computeOptimalScale();
 
@@ -27,6 +33,7 @@ class Graph extends Component {
 
         const svg = d3.select('.Graph')
             .append('svg')
+            .attr('id', 'viz-svg')
             .attr('width', '100%')
             .style('height', 'calc(100vh - 120px)')
             .call(zoom)
@@ -252,6 +259,13 @@ class Graph extends Component {
         const optimalScale = widthRatio * .96;
 
         return optimalScale;
+    }
+
+    updateVisualization() {
+        // tear down previous viz before re-initializing
+
+        // console.log(this.props.currentViz);
+        this.initializeD3Simulation();
     }
 
     render() {
