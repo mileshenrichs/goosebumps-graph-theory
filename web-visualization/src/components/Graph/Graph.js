@@ -4,14 +4,6 @@ import graphData from '../../data/data';
 
 class Graph extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            svg: undefined,
-            simulation: undefined
-        };
-    }
-
     componentDidMount() {
         this.initializeD3Simulation();
     }
@@ -28,10 +20,10 @@ class Graph extends Component {
         const zoom = d3.zoom()
             .wheelDelta(() => -d3.event.deltaY * (d3.event.deltaMode ? 120 : 1) / 3000)
             .on('zoom', () => {
-                if(svg) svg.attr('transform', () => d3.event.transform)
+                if(this.svg) this.svg.attr('transform', () => d3.event.transform)
             });
 
-        const svg = d3.select('.Graph')
+        this.svg = d3.select('.Graph')
             .append('svg')
             .attr('id', 'viz-svg')
             .attr('width', '100%')
@@ -42,7 +34,7 @@ class Graph extends Component {
             .attr('id', 'container')
             .attr('transform', 'translate(0,0) scale(' + initScale + ')');
 
-        svg.append('defs').append('marker')
+        this.svg.append('defs').append('marker')
             .attr('id', 'arrowhead')
             .attr('viewBox', '0 -5 10 10')
             .attr('refX', 6.3)
@@ -56,20 +48,17 @@ class Graph extends Component {
             .attr('fill', '#999')
             .style('stroke','none');
 
-        // save svg object in state, then init SVG drawing
-        this.setState({svg}, () => {
-            this.initSvgDraw(initScale);
-        });
+        this.initSvgDraw(initScale);
     }
 
     initSvgDraw(initialScale) {
         const { links, nodes } = graphData;
         this.positionGraphNodes(nodes, initialScale);
 
-        const simulation = d3.forceSimulation()
+        this.simulation = d3.forceSimulation()
             .force('link', d3.forceLink().id(d => d.pageNo).distance(20).strength(1));
 
-        const link = this.state.svg.selectAll('.link')
+        const link = this.svg.selectAll('.link')
             .data(links)
             .enter()
             .append('line')
@@ -77,7 +66,7 @@ class Graph extends Component {
             .attr('marker-end', 'url(#arrowhead)')
             .on('mouseover', d => this.props.elementHoveredHandler(d));
 
-        const edgePaths = this.state.svg.selectAll('.edgepath')
+        const edgePaths = this.svg.selectAll('.edgepath')
             .data(links)
             .enter()
             .append('path')
@@ -87,7 +76,7 @@ class Graph extends Component {
             .attr('id', (d, i) => 'edgepath' + i)
             .style('pointer-events', 'none');
 
-        const edgeLabels = this.state.svg.selectAll('.edgelabel')
+        const edgeLabels = this.svg.selectAll('.edgelabel')
             .data(links)
             .enter()
             .append('text')
@@ -104,7 +93,7 @@ class Graph extends Component {
             .attr('fill', '#424242')
             .text(d => d.decisionDesc);
 
-        const node = this.state.svg.selectAll('.node')
+        const node = this.svg.selectAll('.node')
             .data(nodes)
             .enter()
             .append('g')
@@ -171,7 +160,7 @@ class Graph extends Component {
             })
             .text(page => page.utility);
 
-        simulation
+        this.simulation
             .nodes(nodes)
             .on('tick', () => {
                 link
@@ -203,9 +192,7 @@ class Graph extends Component {
                 });
             });
 
-        simulation.force('link').links(links);
-
-        this.setState({simulation, nodes});
+        this.simulation.force('link').links(links);
     }
 
     /**
@@ -229,7 +216,7 @@ class Graph extends Component {
 
     onNodeDragStart(d) {
         if(!d3.event.active) {
-            this.state.simulation.alphaTarget(0.3).restart();
+            this.simulation.alphaTarget(0.3).restart();
         }
         d.fx = d.x;
         d.fy = d.y;
@@ -242,7 +229,7 @@ class Graph extends Component {
 
     onNodeDragEnd() {
         if(!d3.event.active) {
-            this.state.simulation.alphaTarget(0);
+            this.simulation.alphaTarget(0);
         }
     }
 
