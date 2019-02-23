@@ -52,11 +52,17 @@ class Graph extends Component {
     }
 
     initSvgDraw(initialScale) {
-        const { links, nodes } = graphData;
-        this.positionGraphNodes(nodes, initialScale);
+        // clone links & nodes to prevent translations from stacking
+        const ogNodes = graphData.nodes;
+        const ogLinks = graphData.links;
+        const links = JSON.parse(JSON.stringify(ogLinks));
+        const nodes = JSON.parse(JSON.stringify(ogNodes));
+
+        this.centerGraphNodes(nodes, initialScale);
 
         this.simulation = d3.forceSimulation()
-            .force('link', d3.forceLink().id(d => d.pageNo).distance(20).strength(1));
+            .force('link', d3.forceLink().id(d => d.pageNo).distance(20).strength(0.5))
+            .force('collide', d3.forceCollide(14));
 
         const link = this.svg.selectAll('.link')
             .data(links)
@@ -201,7 +207,7 @@ class Graph extends Component {
      * browser height and an initial scale (scaled to fit screen), adds some
      * left padding, then translates the fixed (x, y) position of each node.
      */
-    positionGraphNodes(nodes, initialScale) {
+    centerGraphNodes(nodes, initialScale) {
         // vertical midpoint is half the browser height,
         // divided by the initial scale (typically a value between ~0.8 and ~1.6),
         // with a slight upward translation to account for the info panel at bottom
@@ -227,9 +233,13 @@ class Graph extends Component {
         d.fy = d3.event.y;
     }
 
-    onNodeDragEnd() {
+    onNodeDragEnd(d) {
         if(!d3.event.active) {
             this.simulation.alphaTarget(0);
+        }
+        if(this.props.currentViz === 'force-simulation') {
+            d.fx = undefined;
+            d.fy = undefined;
         }
     }
 
@@ -249,10 +259,39 @@ class Graph extends Component {
     }
 
     updateVisualization() {
-        // tear down previous viz before re-initializing
-
-        // console.log(this.props.currentViz);
+        // tear down and re-initialize simulation
+        this.tearDownVisualization();
         this.initializeD3Simulation();
+
+        // choose correct viz and execute
+        switch(this.props.currentViz) {
+            case 'optimal-path':
+                break;
+            case 'force-simulation':
+                this.vizForceSimulation();
+                break;
+            default:
+                break;
+        }
+    }
+
+    tearDownVisualization() {
+        this.simulation.stop();
+        const graphSvg = document.querySelector('svg#viz-svg');
+        graphSvg.parentNode.removeChild(graphSvg);
+    }
+
+    /**
+     * Visualization Mode - Force Simulation
+     * Removes fx and fy properties of nodes so they are free to move in accordance
+     * with the D3 force-directed graph simulation.
+     */
+    vizForceSimulation() {
+        const nodes = this.simulation.nodes();
+        for(let i = 0; i < nodes.length; i++) {
+            nodes[i].fx = undefined;
+            nodes[i].fy = undefined;
+        }
     }
 
     render() {
